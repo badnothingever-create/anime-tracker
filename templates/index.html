@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Kurale&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Мои аниме - Anime Tracker</title>
+<style>
+  html, body {
+    font-family: "Kurale", serif;
+    font-weight: 400;
+    font-style: normal;    
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+  }
+  .search-box {
+    margin-bottom: 20px;
+  }
+  .anime-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 8px 12px;
+    gap: 15px;
+    border-bottom: 1px solid #ccc;
+  }
+  .anime-title {
+    flex-grow: 1;
+    text-align: left;
+    align-items: start;
+  }
+  select {
+    min-width: 160px;
+  }
+  body {
+  background: #3a5897;
+  color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.container {
+  max-width: auto;
+  border-radius: 10px;
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 35px rgba(0, 0, 0, 0.4);
+  z-index: 10;
+  overflow: hidden;
+  padding: 30px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #21a1f1;
+}
+
+.anime-list {
+  list-style: none;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  margin-top: 20px;
+}
+
+/* Добавим стили для статусов */
+.anime-list li {
+  padding: 10px;
+  margin-bottom: 6px;
+  border-radius: 4px;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Статусы */
+.anime-list li.просмотрено {
+  background-color: #34432a;
+  color: #9ece6a;
+  text-decoration: line-through;
+}
+
+.anime-list li.планирую {
+  background-color: #204a87;
+  color: #a8c8ff;
+}
+
+.anime-list li.никогда-не-посмотрю {
+  background-color: #4d1f1f;
+  color: #f28c8c;
+  text-decoration: line-through;
+}
+
+.anime-list li.в-процессе {
+  background-color: #806517;
+  color: #fffc9e;
+}
+
+.fixed-logout-btn {
+  position: fixed;
+  top: 10px;    /* отступ сверху */
+  left: 10px;   /* отступ слева */
+  z-index: 1000; /* чтобы была поверх других элементов */
+}
+
+.fixed-logout-btn button {
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #61dafb;
+  color: #282c34;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.fixed-logout-btn button:hover {
+  background-color: #21a1f1;
+}
+
+.jp-matrix {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(40px, 1fr));
+  grid-auto-rows: 40px;
+  font-size: 32px;
+  color: rgba(0, 150, 255, 0.4);
+  font-family: "Courier New", Courier, monospace;
+  justify-content: center;
+  align-content: center;
+  overflow: hidden;
+  background-color: #05050a;
+  z-index: 0;
+}
+
+.jp-matrix > span {
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0, 150, 255, 0.5);
+  user-select: none;
+  transition:
+    color 0.5s,
+    text-shadow 0.5s;
+  line-height: 1;
+}
+
+.jp-matrix > span:nth-child(19n + 2) {
+  animation: smooth-pulse 3.5s ease-in-out infinite 0.2s;
+}
+.jp-matrix > span:nth-child(29n + 1) {
+  animation: smooth-pulse 4.1s ease-in-out infinite 0.7s;
+}
+.jp-matrix > span:nth-child(11n) {
+  color: rgba(100, 200, 255, 0.7);
+  animation: smooth-pulse 2.9s ease-in-out infinite 1.1s;
+}
+.jp-matrix > span:nth-child(37n + 10) {
+  animation: smooth-pulse 5.3s ease-in-out infinite 1.5s;
+}
+.jp-matrix > span:nth-child(41n + 1) {
+  animation: smooth-pulse 3.9s ease-in-out infinite 0.4s;
+}
+.jp-matrix > span:nth-child(17n + 9) {
+  animation: smooth-pulse 2.8s ease-in-out infinite 0.9s;
+}
+.jp-matrix > span:nth-child(23n + 18) {
+  animation: smooth-pulse 4.3s ease-in-out infinite 1.3s;
+}
+.jp-matrix > span:nth-child(31n + 4) {
+  animation: smooth-pulse 5.6s ease-in-out infinite 0.1s;
+}
+.jp-matrix > span:nth-child(43n + 20) {
+  animation: smooth-pulse 3.6s ease-in-out infinite 1.8s;
+}
+.jp-matrix > span:nth-child(13n + 6) {
+  animation: smooth-pulse 3.2s ease-in-out infinite 1.2s;
+}
+.jp-matrix > span:nth-child(53n + 5) {
+  animation: smooth-pulse 4.9s ease-in-out infinite 0.5s;
+}
+.jp-matrix > span:nth-child(47n + 15) {
+  animation: smooth-pulse 5.9s ease-in-out infinite 1s;
+}
+
+@keyframes smooth-pulse {
+  0%,
+  100% {
+    color: rgba(0, 150, 255, 0.4);
+    text-shadow: 0 0 5px rgba(0, 150, 255, 0.5);
+  }
+  30% {
+    color: rgba(100, 200, 255, 1);
+    text-shadow:
+      0 0 10px rgba(100, 200, 255, 1),
+      0 0 15px rgba(100, 200, 255, 1);
+  }
+  50% {
+    color: rgba(255, 105, 180, 1);
+    text-shadow:
+      0 0 10px rgba(255, 105, 180, 1),
+      0 0 15px rgba(255, 105, 180, 1);
+  }
+  70% {
+    color: #ffffff;
+    text-shadow:
+      0 0 10px #fff,
+      0 0 15px #fff,
+      0 0 20px #fff;
+  }
+}
+.status-input{
+  text-align: center;
+  font-size: 14px;
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fafafa;
+  color: #333;
+  height: auto;
+}
+</style>
+<script>
+
+function filterAnime() {
+  const input = document.getElementById('searchInput').value.toLowerCase();
+  const items = document.querySelectorAll('.anime-item');
+  items.forEach(item => {
+    const title = item.querySelector('.anime-title').textContent.toLowerCase();
+    if (title.includes(input)) {
+      item.style.display = 'flex';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+function updateStatus(animeID, newStatus) {
+  console.log('Отправляемые данные:', { anime_id: animeID, status: newStatus });
+  fetch('/anime/status', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json'
+    },
+    body: JSON.stringify({ animeID: animeID, status: newStatus })
+  })
+    .then(response => {
+      if (!response.ok) {
+        return response.text().then(text => {
+          throw new Error('Ошибка при обновлении статуса: ' + text);
+        });
+      }
+      return response;
+    })
+    .then(() => {
+      return fetch('/anime');
+    })
+    .then(resp => resp.text())
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, 'text/html');
+      const animeItem = doc.getElementById('anime-' + animeID);
+      if (animeItem) {
+        document.getElementById('anime-' + animeID).innerHTML = animeItem.innerHTML;
+      }
+    })
+    .catch(error => {
+      console.error(error.message);
+      alert(error.message);
+    });
+}
+</script>
+</head>
+<body>
+  <!-- From Uiverse.io by solowzrd --> 
+<div class="jp-matrix">
+  <span>ア</span><span>イ</span><span>ウ</span><span>エ</span><span>オ</span
+  ><span>カ</span><span>キ</span><span>ク</span><span>ケ</span><span>コ</span
+  ><span>サ</span><span>シ</span><span>ス</span><span>セ</span><span>ソ</span
+  ><span>タ</span><span>チ</span><span>ツ</span><span>テ</span><span>ト</span
+  ><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span
+  ><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span
+  ><span>マ</span><span>ミ</span><span>ム</span><span>メ</span><span>モ</span
+  ><span>ヤ</span><span>ユ</span><span>ヨ</span><span>ラ</span><span>リ</span
+  ><span>ル</span><span>レ</span><span>ロ</span><span>ワ</span><span>ヲ</span
+  ><span>ン</span><span>ガ</span><span>ギ</span><span>グ</span><span>ゲ</span
+  ><span>ゴ</span><span>ザ</span><span>ジ</span><span>ズ</span><span>ゼ</span
+  ><span>ゾ</span><span>ダ</span><span>ヂ</span><span>ヅ</span><span>デ</span
+  ><span>ド</span><span>バ</span><span>ビ</span><span>ブ</span><span>ベ</span
+  ><span>ボ</span><span>パ</span><span>ピ</span><span>プ</span><span>ペ</span
+  ><span>ポ</span><span>ア</span><span>イ</span><span>ウ</span><span>エ</span
+  ><span>オ</span><span>カ</span><span>キ</span><span>ク</span><span>ケ</span
+  ><span>コ</span><span>サ</span><span>シ</span><span>ス</span><span>セ</span
+  ><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span><span>テ</span
+  ><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span
+  ><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span
+  ><span>ホ</span> <span>ア</span><span>イ</span><span>ウ</span><span>エ</span
+  ><span>オ</span><span>カ</span><span>キ</span><span>ク</span><span>ケ</span
+  ><span>コ</span><span>サ</span><span>シ</span><span>ス</span><span>セ</span
+  ><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span><span>テ</span
+  ><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span
+  ><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span
+  ><span>ホ</span><span>マ</span><span>ミ</span><span>ム</span><span>メ</span
+  ><span>モ</span><span>ヤ</span><span>ユ</span><span>ヨ</span><span>ラ</span
+  ><span>リ</span><span>ル</span><span>レ</span><span>ロ</span><span>ワ</span
+  ><span>ヲ</span><span>ン</span><span>ガ</span><span>ギ</span><span>グ</span
+  ><span>ゲ</span><span>ゴ</span><span>ザ</span><span>ジ</span><span>ズ</span
+  ><span>ゼ</span><span>ゾ</span><span>ダ</span><span>ヂ</span><span>ヅ</span
+  ><span>デ</span><span>ド</span><span>バ</span><span>ビ</span><span>ブ</span
+  ><span>ベ</span><span>ボ</span><span>パ</span><span>ピ</span><span>プ</span
+  ><span>ペ</span><span>ポ</span><span>ア</span><span>イ</span><span>ウ</span
+  ><span>エ</span><span>オ</span><span>カ</span><span>キ</span><span>ク</span
+  ><span>ケ</span><span>コ</span><span>サ</span><span>シ</span><span>ス</span
+  ><span>セ</span><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span
+  ><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span
+  ><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span
+  ><span>ヘ</span><span>ホ</span> <span>ア</span><span>イ</span><span>ウ</span
+  ><span>エ</span><span>オ</span><span>カ</span><span>キ</span><span>ク</span
+  ><span>ケ</span><span>コ</span><span>サ</span><span>シ</span><span>ス</span
+  ><span>セ</span><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span
+  ><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span
+  ><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span
+  ><span>ヘ</span><span>ホ</span><span>マ</span><span>ミ</span><span>ム</span
+  ><span>メ</span><span>モ</span><span>ヤ</span><span>ユ</span><span>ヨ</span
+  ><span>ラ</span><span>リ</span><span>ル</span><span>レ</span><span>ロ</span
+  ><span>ワ</span><span>ヲ</span><span>ン</span><span>ガ</span><span>ギ</span
+  ><span>グ</span><span>ゲ</span><span>ゴ</span><span>ザ</span><span>ジ</span
+  ><span>ズ</span><span>ゼ</span><span>ゾ</span><span>ダ</span><span>ヂ</span
+  ><span>ヅ</span><span>デ</span><span>ド</span><span>バ</span><span>ビ</span
+  ><span>ブ</span><span>ベ</span><span>ボ</span><span>パ</span><span>ピ</span
+  ><span>プ</span><span>ペ</span><span>ポ</span><span>ア</span><span>イ</span
+  ><span>ウ</span><span>エ</span><span>オ</span><span>カ</span><span>キ</span
+  ><span>ク</span><span>ケ</span><span>コ</span><span>サ</span><span>シ</span
+  ><span>ス</span><span>セ</span><span>ソ</span><span>タ</span><span>チ</span
+  ><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span
+  ><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span
+  ><span>フ</span><span>ヘ</span><span>ホ</span> <span>ア</span><span>イ</span
+  ><span>ウ</span><span>エ</span><span>オ</span><span>カ</span><span>キ</span
+  ><span>ク</span><span>ケ</span><span>コ</span><span>サ</span><span>シ</span
+  ><span>ス</span><span>セ</span><span>ソ</span><span>タ</span><span>チ</span
+  ><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span
+  ><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span
+  ><span>フ</span><span>ヘ</span><span>ホ</span><span>マ</span><span>ミ</span
+  ><span>ム</span><span>メ</span><span>モ</span><span>ヤ</span><span>ユ</span
+  ><span>ヨ</span><span>ラ</span><span>リ</span><span>ル</span><span>レ</span
+  ><span>ロ</span><span>ワ</span><span>ヲ</span><span>ン</span><span>ガ</span
+  ><span>ギ</span><span>グ</span><span>ゲ</span><span>ゴ</span><span>ザ</span
+  ><span>ジ</span><span>ズ</span><span>ゼ</span><span>ゾ</span><span>ダ</span
+  ><span>ヂ</span><span>ヅ</span><span>デ</span><span>ド</span><span>バ</span
+  ><span>ビ</span><span>ブ</span><span>ベ</span><span>ボ</span><span>パ</span
+  ><span>ピ</span><span>プ</span><span>ペ</span><span>ポ</span><span>ア</span
+  ><span>イ</span><span>ウ</span><span>エ</span><span>オ</span><span>カ</span
+  ><span>キ</span><span>ク</span><span>ケ</span><span>コ</span><span>サ</span
+  ><span>シ</span><span>ス</span><span>セ</span><span>ソ</span><span>タ</span
+  ><span>チ</span><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span
+  ><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span
+  ><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span> <span>ア</span
+  ><span>イ</span><span>ウ</span><span>エ</span><span>オ</span><span>カ</span
+  ><span>キ</span><span>ク</span><span>ケ</span><span>コ</span><span>サ</span
+  ><span>シ</span><span>ス</span><span>セ</span><span>ソ</span><span>タ</span
+  ><span>チ</span><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span
+  ><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span
+  ><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span><span>マ</span
+  ><span>ミ</span><span>ム</span><span>メ</span><span>モ</span><span>ヤ</span
+  ><span>ユ</span><span>ヨ</span><span>ラ</span><span>リ</span><span>ル</span
+  ><span>レ</span><span>ロ</span><span>ワ</span><span>ヲ</span><span>ン</span
+  ><span>ガ</span><span>ギ</span><span>グ</span><span>ゲ</span><span>ゴ</span
+  ><span>ザ</span><span>ジ</span><span>ズ</span><span>ゼ</span><span>ゾ</span
+  ><span>ダ</span><span>ヂ</span><span>ヅ</span><span>デ</span><span>ド</span
+  ><span>バ</span><span>ビ</span><span>ブ</span><span>ベ</span><span>ボ</span
+  ><span>パ</span><span>ピ</span><span>プ</span><span>ペ</span><span>ポ</span
+  ><span>ア</span><span>イ</span><span>ウ</span><span>エ</span><span>オ</span
+  ><span>カ</span><span>キ</span><span>ク</span><span>ケ</span><span>コ</span
+  ><span>サ</span><span>シ</span><span>ス</span><span>セ</span><span>ソ</span
+  ><span>タ</span><span>チ</span><span>ツ</span><span>テ</span><span>ト</span
+  ><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span
+  ><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span>
+  <span>ア</span><span>イ</span><span>ウ</span><span>エ</span><span>オ</span
+  ><span>カ</span><span>キ</span><span>ク</span><span>ケ</span><span>コ</span
+  ><span>サ</span><span>シ</span><span>ス</span><span>セ</span><span>ソ</span
+  ><span>タ</span><span>チ</span><span>ツ</span><span>テ</span><span>ト</span
+  ><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span
+  ><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span
+  ><span>マ</span><span>ミ</span><span>ム</span><span>メ</span><span>モ</span
+  ><span>ヤ</span><span>ユ</span><span>ヨ</span><span>ラ</span><span>リ</span
+  ><span>ル</span><span>レ</span><span>ロ</span><span>ワ</span><span>ヲ</span
+  ><span>ン</span><span>ガ</span><span>ギ</span><span>グ</span><span>ゲ</span
+  ><span>ゴ</span><span>ザ</span><span>ジ</span><span>ズ</span><span>ゼ</span
+  ><span>ゾ</span><span>ダ</span><span>ヂ</span><span>ヅ</span><span>デ</span
+  ><span>ド</span><span>バ</span><span>ビ</span><span>ブ</span><span>ベ</span
+  ><span>ボ</span><span>パ</span><span>ピ</span><span>プ</span><span>ペ</span
+  ><span>ポ</span><span>ア</span><span>イ</span><span>ウ</span><span>エ</span
+  ><span>オ</span><span>カ</span><span>キ</span><span>ク</span><span>ケ</span
+  ><span>コ</span><span>サ</span><span>シ</span><span>ス</span><span>セ</span
+  ><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span><span>テ</span
+  ><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span
+  ><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span
+  ><span>ホ</span> <span>ア</span><span>イ</span><span>ウ</span><span>エ</span
+  ><span>オ</span><span>カ</span><span>キ</span><span>ク</span><span>ケ</span
+  ><span>コ</span><span>サ</span><span>シ</span><span>ス</span><span>セ</span
+  ><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span><span>テ</span
+  ><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span
+  ><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span
+  ><span>ホ</span><span>マ</span><span>ミ</span><span>ム</span><span>メ</span
+  ><span>モ</span><span>ヤ</span><span>ユ</span><span>ヨ</span><span>ラ</span
+  ><span>リ</span><span>ル</span><span>レ</span><span>ロ</span><span>ワ</span
+  ><span>ヲ</span><span>ン</span><span>ガ</span><span>ギ</span><span>グ</span
+  ><span>ゲ</span><span>ゴ</span><span>ザ</span><span>ジ</span><span>ズ</span
+  ><span>ゼ</span><span>ゾ</span><span>ダ</span><span>ヂ</span><span>ヅ</span
+  ><span>デ</span><span>ド</span><span>バ</span><span>ビ</span><span>ブ</span
+  ><span>ベ</span><span>ボ</span><span>パ</span><span>ピ</span><span>プ</span
+  ><span>ペ</span><span>ポ</span><span>ア</span><span>イ</span><span>ウ</span
+  ><span>エ</span><span>オ</span><span>カ</span><span>キ</span><span>ク</span
+  ><span>ケ</span><span>コ</span><span>サ</span><span>シ</span><span>ス</span
+  ><span>セ</span><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span
+  ><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span
+  ><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span
+  ><span>ヘ</span><span>ホ</span> <span>ア</span><span>イ</span><span>ウ</span
+  ><span>エ</span><span>オ</span><span>カ</span><span>キ</span><span>ク</span
+  ><span>ケ</span><span>コ</span><span>サ</span><span>シ</span><span>ス</span
+  ><span>セ</span><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span
+  ><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span
+  ><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span
+  ><span>ヘ</span><span>ホ</span><span>マ</span><span>ミ</span><span>ム</span
+  ><span>メ</span><span>モ</span><span>ヤ</span><span>ユ</span><span>ヨ</span
+  ><span>ラ</span><span>リ</span><span>ル</span><span>レ</span><span>ロ</span
+  ><span>ワ</span><span>ヲ</span><span>ン</span><span>ガ</span><span>ギ</span
+  ><span>グ</span><span>ゲ</span><span>ゴ</span><span>ザ</span><span>ジ</span
+  ><span>ズ</span><span>ゼ</span><span>ゾ</span><span>ダ</span><span>ヂ</span
+  ><span>ヅ</span><span>デ</span><span>ド</span><span>バ</span><span>ビ</span
+  ><span>ブ</span><span>ベ</span><span>ボ</span><span>パ</span><span>ピ</span
+  ><span>プ</span><span>ペ</span><span>ポ</span><span>ア</span><span>イ</span
+  ><span>ウ</span><span>エ</span><span>オ</span><span>カ</span><span>キ</span
+  ><span>ク</span><span>ケ</span><span>コ</span><span>サ</span><span>シ</span
+  ><span>ス</span><span>セ</span><span>ソ</span><span>タ</span><span>チ</span
+  ><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span
+  ><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span
+  ><span>フ</span><span>ヘ</span><span>ホ</span> <span>ア</span><span>イ</span
+  ><span>ウ</span><span>エ</span><span>オ</span><span>カ</span><span>キ</span
+  ><span>ク</span><span>ケ</span><span>コ</span><span>サ</span><span>シ</span
+  ><span>ス</span><span>セ</span><span>ソ</span><span>タ</span><span>チ</span
+  ><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span><span>ニ</span
+  ><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span><span>ヒ</span
+  ><span>フ</span><span>ヘ</span><span>ホ</span><span>マ</span><span>ミ</span
+  ><span>ム</span><span>メ</span><span>モ</span><span>ヤ</span><span>ユ</span
+  ><span>ヨ</span><span>ラ</span><span>リ</span><span>ル</span><span>レ</span
+  ><span>ロ</span><span>ワ</span><span>ヲ</span><span>ン</span><span>ガ</span
+  ><span>ギ</span><span>グ</span><span>ゲ</span><span>ゴ</span><span>ザ</span
+  ><span>ジ</span><span>ズ</span><span>ゼ</span><span>ゾ</span><span>ダ</span
+  ><span>ヂ</span><span>ヅ</span><span>デ</span><span>ド</span><span>バ</span
+  ><span>ビ</span><span>ブ</span><span>ベ</span><span>ボ</span><span>パ</span
+  ><span>ピ</span><span>プ</span><span>ペ</span><span>ポ</span><span>ア</span
+  ><span>イ</span><span>ウ</span><span>エ</span><span>オ</span><span>カ</span
+  ><span>キ</span><span>ク</span><span>ケ</span><span>コ</span><span>サ</span
+  ><span>シ</span><span>ス</span><span>セ</span><span>ソ</span><span>タ</span
+  ><span>チ</span><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span
+  ><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span
+  ><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span> <span>ア</span
+  ><span>イ</span><span>ウ</span><span>エ</span><span>オ</span><span>カ</span
+  ><span>キ</span><span>ク</span><span>ケ</span><span>コ</span><span>サ</span
+  ><span>シ</span><span>ス</span><span>セ</span><span>ソ</span><span>タ</span
+  ><span>チ</span><span>ツ</span><span>テ</span><span>ト</span><span>ナ</span
+  ><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span><span>ハ</span
+  ><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span><span>マ</span
+  ><span>ミ</span><span>ム</span><span>メ</span><span>モ</span><span>ヤ</span
+  ><span>ユ</span><span>ヨ</span><span>ラ</span><span>リ</span><span>ル</span
+  ><span>レ</span><span>ロ</span><span>ワ</span><span>ヲ</span><span>ン</span
+  ><span>ガ</span><span>ギ</span><span>グ</span><span>ゲ</span><span>ゴ</span
+  ><span>ザ</span><span>ジ</span><span>ズ</span><span>ゼ</span><span>ゾ</span
+  ><span>ダ</span><span>ヂ</span><span>ヅ</span><span>デ</span><span>ド</span
+  ><span>バ</span><span>ビ</span><span>ブ</span><span>ベ</span><span>ボ</span
+  ><span>パ</span><span>ピ</span><span>プ</span><span>ペ</span><span>ポ</span
+  ><span>ア</span><span>イ</span><span>ウ</span><span>エ</span><span>オ</span
+  ><span>カ</span><span>キ</span><span>ク</span><span>ケ</span><span>コ</span
+  ><span>サ</span><span>シ</span><span>ス</span><span>セ</span><span>ソ</span
+  ><span>タ</span><span>チ</span><span>ツ</span><span>テ</span><span>ト</span
+  ><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span
+  ><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span>
+  <span>ア</span><span>イ</span><span>ウ</span><span>エ</span><span>オ</span
+  ><span>カ</span><span>キ</span><span>ク</span><span>ケ</span><span>コ</span
+  ><span>サ</span><span>シ</span><span>ス</span><span>セ</span><span>ソ</span
+  ><span>タ</span><span>チ</span><span>ツ</span><span>テ</span><span>ト</span
+  ><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span><span>ノ</span
+  ><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span><span>ホ</span
+  ><span>マ</span><span>ミ</span><span>ム</span><span>メ</span><span>モ</span
+  ><span>ヤ</span><span>ユ</span><span>ヨ</span><span>ラ</span><span>リ</span
+  ><span>ル</span><span>レ</span><span>ロ</span><span>ワ</span><span>ヲ</span
+  ><span>ン</span><span>ガ</span><span>ギ</span><span>グ</span><span>ゲ</span
+  ><span>ゴ</span><span>ザ</span><span>ジ</span><span>ズ</span><span>ゼ</span
+  ><span>ゾ</span><span>ダ</span><span>ヂ</span><span>ヅ</span><span>デ</span
+  ><span>ド</span><span>バ</span><span>ビ</span><span>ブ</span><span>ベ</span
+  ><span>ボ</span><span>パ</span><span>ピ</span><span>プ</span><span>ペ</span
+  ><span>ポ</span><span>ア</span><span>イ</span><span>ウ</span><span>エ</span
+  ><span>オ</span><span>カ</span><span>キ</span><span>ク</span><span>ケ</span
+  ><span>コ</span><span>サ</span><span>シ</span><span>ス</span><span>セ</span
+  ><span>ソ</span><span>タ</span><span>チ</span><span>ツ</span><span>テ</span
+  ><span>ト</span><span>ナ</span><span>ニ</span><span>ヌ</span><span>ネ</span
+  ><span>ノ</span><span>ハ</span><span>ヒ</span><span>フ</span><span>ヘ</span
+  ><span>ホ</span>
+</div>
+
+    <div class="fixed-logout-btn">
+  <button onclick="location.href='/logout'">Выйти</button>
+  </div>
+<div class="container">
+  <h1>Мои аниме</h1>
+  <div class="search-box">
+    <input type="text" id="searchInput" placeholder="Поиск аниме..." oninput="filterAnime()" />
+  </div>
+
+<div id="animeList">
+    {{range .Animes}}
+    <div class="anime-item {{.StatusString | statusClass}}" id="anime-{{.ID}}" data-status="{{.StatusString}}">
+      <div class="anime-title">{{.Title}}</div>
+      <input type="text" id="status-input-{{.ID}}" value="{{.StatusString}}">
+      <div class="anime-status-select">
+        <select onchange="updateStatus('{{.ID}}', this.value)">
+          <option value="Пусто" {{if eq .StatusString "-"}}selected{{end}}>-</option>
+          <option value="Просмотрено" {{if eq .StatusString "Просмотрено"}}selected{{end}}>Просмотрено</option>
+          <option value="Смотрю" {{if eq .StatusString "Смотрю"}}selected{{end}}>Смотрю</option>
+          <option value="Планирую" {{if eq .StatusString "Планирую"}}selected{{end}}>Планирую</option>
+          <option value="Никогда не посмотрю" {{if eq .StatusString "Никогда не посмотрю"}}selected{{end}}>Никогда не посмотрю</option>
+        </select>
+      </div>
+    </div>
+    {{end}}
+  </div>
+</div>
+<script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
