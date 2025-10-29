@@ -2,7 +2,11 @@ package handlers
 
 import (
 	"anime-tracker/internal/services"
+	"bytes"
 	"encoding/json"
+	"io"
+	"strconv"
+	"strings"
 
 	//"html/template"
 	"log"
@@ -16,11 +20,17 @@ func UpdateAnimeStatusHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	//log.Printf("Статус аниме успешно обновлен: userID=%d, animeID=%s, status=%s", userID, req.AnimeID, req.Status)
+
+	bodyBytes, _ := io.ReadAll(r.Body)
+	log.Printf("Request body: %s", string(bodyBytes))
+	r.Body = io.NopCloser(bytes.NewBuffer(bodyBytes)) // чтобы потом можно было прочесть тело снова
+
 	log.Printf("Сессия пользователя: %s", cookie.Value)
 
 	userID := services.GetUserIDBySession(cookie.Value)
 	var req struct {
-		AnimeID int    `json:"anime_id"`
+		AnimeID string `json:"animeID"`
 		Status  string `json:"status"`
 	}
 
@@ -30,15 +40,31 @@ func UpdateAnimeStatusHandler(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
-	log.Printf("UpdateAnimeStatus вызван с параметрами: userID=%d, animeID=%d, status=%q", userID, req.AnimeID, req.Status)
+	log.Printf("Received anime_id: %q", req.AnimeID)
 
-	err = services.UpdateAnimeStatus(userID, req.AnimeID, req.Status)
+	cleanedID := strings.TrimSpace(req.AnimeID)
+	animeID, err := strconv.Atoi(cleanedID)
+	if err != nil {
+		log.Printf("Failed to convert anime_id: %v", err)
+		http.Error(w, "Некорректный anime_id", http.StatusBadRequest)
+		return
+	}
+
+	log.Printf("Parsed anime_id: %d", animeID)
+	err = services.UpdateAnimeStatus(userID, animeID, req.Status)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
 	}
+	log.Printf("userID из сессии: %d", userID)
 
-	log.Printf("Статус аниме успешно обновлен: userID=%d, animeID=%d, status=%s", userID, req.AnimeID, req.Status)
+	log.Printf("UpdateAnimeStatus вызван с параметрами: userID=%d, animeID=%s, status=%q", userID, req.AnimeID, req.Status)
+
+	err = services.UpdateAnimeStatus(userID, animeID, req.Status)
+	if err != nil {
+		http.Error(w, err.Error(), http.StatusBadRequest)
+		return
+	}
 
 	w.WriteHeader(http.StatusOK)
 }

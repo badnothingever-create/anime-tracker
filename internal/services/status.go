@@ -1,10 +1,11 @@
 package services
 
 import (
-	"anime-tracker/internal/models"
+	"anime-tracker/internal/database"
+	//"anime-tracker/internal/models"
 	"anime-tracker/internal/repositories"
 	"errors"
-	"log"
+	//"log"
 )
 
 var allowedStatuses = map[string]bool{
@@ -15,17 +16,15 @@ var allowedStatuses = map[string]bool{
 	"Никогда не посмотрю": true,
 }
 
-func UpdateAnimeStatus(userID, animeID int, status string) error {
-	if !allowedStatuses[status] {
-		log.Printf("Пользователь %d попытался установить недопустимый статус: %s", userID, status)
-		return errors.New("недопустимый статус")
-	}
-	nullStatus := models.NewNullString(status)
-	err := repositories.SaveUserAnimeStatus(userID, animeID, nullStatus.String)
+func UpdateAnimeStatus(userID int, animeID int, status string) error {
+	var exists bool
+	err := database.DB.QueryRow("SELECT EXISTS(SELECT 1 FROM animes WHERE id=$1)", animeID).Scan(&exists)
 	if err != nil {
-		log.Printf("Ошибка сохранения статуса в репозитории для пользователя %d: %v", userID, err)
 		return err
 	}
-	log.Printf("Статус успешно сохранен для пользователя %d, animeID %d: %s", userID, animeID, status)
-	return nil
+	if !exists {
+		return errors.New("аниме с таким ID не найдено")
+	}
+	// Вызываем функцию репозитория для сохранения
+	return repositories.SaveUserAnimeStatus(userID, animeID, status)
 }

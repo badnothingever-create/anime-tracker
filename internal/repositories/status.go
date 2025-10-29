@@ -5,9 +5,9 @@ import (
 	"log"
 )
 
-func SaveUserAnimeStatus(userID, animeID int, status string) error {
+func SaveUserAnimeStatus(userID int, animeID int, status string) error {
 	_, err := database.DB.Exec(`
-    	INSERT INTO user_anime_status (user_id, anime_id, status)
+    	INSERT INTO user_anime_status (anime_id, user_id, status)
 		VALUES ($1, $2, $3)
 		ON CONFLICT (user_id, anime_id)
 		DO UPDATE SET status = EXCLUDED.status;
