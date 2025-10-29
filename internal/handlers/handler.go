@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
+	"log"
 	"net/http"
 
 	"anime-tracker/internal/models"
@@ -23,6 +24,10 @@ func InitRoutes(mux *http.ServeMux) {
 			if err != nil {
 				http.Error(w, `{"error":"`+err.Error()+`"}`, http.StatusInternalServerError)
 				return
+			}
+
+			for _, anime := range animes {
+				log.Printf("Anime ID: %d, Title: %s, StatusString: %q", anime.ID, anime.Title, anime.StatusString)
 			}
 
 			err = templates.ExecuteTemplate(w, "index.html", map[string]any{

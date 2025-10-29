@@ -918,3 +918,337 @@
 2025/10/30 00:20:14 UpdateAnimeStatus вызван с параметрами: userID=1, animeID=3, status="Никогда не посмотрю"
 2025/10/30 00:20:14 Успешно сохранено для userID=1, animeID=3, статус="Никогда не посмотрю"
 2025/10/30 00:20:14 Попытка сохранить статус. userID=1, animeID=3, status="Никогда не посмотрю"
+2025/10/30 00:21:50 Запуск сервера
+2025/10/30 00:21:50 Подключение к базе данных установлено успешно
+2025/10/30 00:21:50 Сервер запущен на порту 8080
+2025/10/30 00:30:57 Запуск сервера
+2025/10/30 00:30:58 Подключение к базе данных установлено успешно
+2025/10/30 00:30:58 Сервер запущен на порту 8080
+2025/10/30 00:32:03 Запуск сервера
+2025/10/30 00:32:03 Подключение к базе данных установлено успешно
+2025/10/30 00:32:03 Сервер запущен на порту 8080
+2025/10/30 00:32:16 Anime ID: 1, Title: Наруто, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 2, Title: Ван Пис, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 3, Title: Моя геройская академия, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 4, Title: Волейбол, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 5, Title: Клинок рассекающий демонов, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 6, Title: Туалетный мальчик Ханако-кун, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 7, Title: Великий из бродячих псов, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 8, Title: Песнь ночных сов, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 9, Title: Семья шпионов, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 10, Title: Доктор Стоун, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 11, Title: Евангелион, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 12, Title: Обещанный Неверленд, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 13, Title: Синяя тюрьма, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 14, Title: Повар-боец Сома, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 15, Title: Киберпанк, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 16, Title: Рок - женская скромность, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 17, Title: Быть героем Икс, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 18, Title: Ветролом, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 19, Title: Форма голоса, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 20, Title: Моменты оваций, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 21, Title: Скейт бесконечность, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 22, Title: Агент времени, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 23, Title: Сладкий лимонад, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 24, Title: Объединяйтесь!, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 25, Title: Невменяемый детектив, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 26, Title: Башня Бога, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 27, Title: За гранью, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 28, Title: Класс убийц, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 29, Title: Данганронпа, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 30, Title: Хантер х Хантер, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 31, Title: Богатый детектив, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 32, Title: Токийский гуль, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 33, Title: Нет игры - нет жизни, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 34, Title: ТораДора, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 35, Title: Бездомный бог, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 36, Title: Очень приятно, Бог, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 37, Title: Ангельские ритмы, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 38, Title: Дневник будущего, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 39, Title: Парад смерти, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 40, Title: Фейри тейл, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 41, Title: Человек-бензопила, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 42, Title: Другая, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 43, Title: Хоримия, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 44, Title: Дюрара, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 45, Title: Последний Серафим, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 46, Title: Класс превосходства, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 47, Title: Токийские мстители, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 48, Title: Эхо террора, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 49, Title: Хост-клуб Оранской школы, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 50, Title: Звездное дитя, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 51, Title: Юри на льду, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 52, Title: Фронт кровавой блокады, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 53, Title: Сервамп, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 54, Title: Адский рай, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 55, Title: Дандадан, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 56, Title: Вольный стиль, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 57, Title: Приоритет чудо-яйца, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 58, Title: Проект кей, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 59, Title: Связанные, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 60, Title: Тайные желания отвергнутых, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 61, Title: Ангел кровопролития, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 62, Title: Кровавый парень, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 63, Title: Зом 100, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 64, Title: Мемуары Ванитаса, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 65, Title: Моя любовь к Ямаде 999 уровня, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 66, Title: Только ты любишь великого меня, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 67, Title: Я требую..., StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 68, Title: Акудама драйв, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:16 Anime ID: 69, Title: Детектив уже мертв, StatusString: 0x7ff7271f7080
+2025/10/30 00:32:20 Request body: {"animeID":"2","status":"Планирую"}
+2025/10/30 00:32:20 Сессия пользователя: session-1
+2025/10/30 00:32:20 Received anime_id: "2"
+2025/10/30 00:32:20 Parsed anime_id: 2
+2025/10/30 00:32:20 Успешно сохранено для userID=1, animeID=2, статус="Планирую"
+2025/10/30 00:32:20 Попытка сохранить статус. userID=1, animeID=2, status="Планирую"
+2025/10/30 00:32:20 userID из сессии: 1
+2025/10/30 00:32:20 UpdateAnimeStatus вызван с параметрами: userID=1, animeID=2, status="Планирую"
+2025/10/30 00:32:20 Успешно сохранено для userID=1, animeID=2, статус="Планирую"
+2025/10/30 00:32:20 Попытка сохранить статус. userID=1, animeID=2, status="Планирую"
+2025/10/30 00:32:25 Request body: {"animeID":"4","status":"Никогда не посмотрю"}
+2025/10/30 00:32:25 Сессия пользователя: session-1
+2025/10/30 00:32:25 Received anime_id: "4"
+2025/10/30 00:32:25 Parsed anime_id: 4
+2025/10/30 00:32:25 Успешно сохранено для userID=1, animeID=4, статус="Никогда не посмотрю"
+2025/10/30 00:32:25 Попытка сохранить статус. userID=1, animeID=4, status="Никогда не посмотрю"
+2025/10/30 00:32:25 userID из сессии: 1
+2025/10/30 00:32:25 UpdateAnimeStatus вызван с параметрами: userID=1, animeID=4, status="Никогда не посмотрю"
+2025/10/30 00:32:25 Успешно сохранено для userID=1, animeID=4, статус="Никогда не посмотрю"
+2025/10/30 00:32:25 Попытка сохранить статус. userID=1, animeID=4, status="Никогда не посмотрю"
+2025/10/30 00:34:39 Запуск сервера
+2025/10/30 00:34:40 Подключение к базе данных установлено успешно
+2025/10/30 00:34:40 Сервер запущен на порту 8080
+2025/10/30 00:34:45 Anime ID: 1, Title: Наруто, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 2, Title: Ван Пис, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 3, Title: Моя геройская академия, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 4, Title: Волейбол, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 5, Title: Клинок рассекающий демонов, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 6, Title: Туалетный мальчик Ханако-кун, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 7, Title: Великий из бродячих псов, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 8, Title: Песнь ночных сов, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 9, Title: Семья шпионов, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 10, Title: Доктор Стоун, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 11, Title: Евангелион, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 12, Title: Обещанный Неверленд, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 13, Title: Синяя тюрьма, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 14, Title: Повар-боец Сома, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 15, Title: Киберпанк, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 16, Title: Рок - женская скромность, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 17, Title: Быть героем Икс, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 18, Title: Ветролом, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 19, Title: Форма голоса, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 20, Title: Моменты оваций, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 21, Title: Скейт бесконечность, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 22, Title: Агент времени, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 23, Title: Сладкий лимонад, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 24, Title: Объединяйтесь!, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 25, Title: Невменяемый детектив, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 26, Title: Башня Бога, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 27, Title: За гранью, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 28, Title: Класс убийц, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 29, Title: Данганронпа, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 30, Title: Хантер х Хантер, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 31, Title: Богатый детектив, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 32, Title: Токийский гуль, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 33, Title: Нет игры - нет жизни, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 34, Title: ТораДора, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 35, Title: Бездомный бог, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 36, Title: Очень приятно, Бог, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 37, Title: Ангельские ритмы, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 38, Title: Дневник будущего, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 39, Title: Парад смерти, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 40, Title: Фейри тейл, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 41, Title: Человек-бензопила, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 42, Title: Другая, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 43, Title: Хоримия, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 44, Title: Дюрара, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 45, Title: Последний Серафим, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 46, Title: Класс превосходства, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 47, Title: Токийские мстители, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 48, Title: Эхо террора, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 49, Title: Хост-клуб Оранской школы, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 50, Title: Звездное дитя, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 51, Title: Юри на льду, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 52, Title: Фронт кровавой блокады, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 53, Title: Сервамп, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 54, Title: Адский рай, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 55, Title: Дандадан, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 56, Title: Вольный стиль, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 57, Title: Приоритет чудо-яйца, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 58, Title: Проект кей, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 59, Title: Связанные, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 60, Title: Тайные желания отвергнутых, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 61, Title: Ангел кровопролития, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 62, Title: Кровавый парень, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 63, Title: Зом 100, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 64, Title: Мемуары Ванитаса, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 65, Title: Моя любовь к Ямаде 999 уровня, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 66, Title: Только ты любишь великого меня, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 67, Title: Я требую..., StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 68, Title: Акудама драйв, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:45 Anime ID: 69, Title: Детектив уже мертв, StatusString: %!s(func() string=0x7ff727c07080)
+2025/10/30 00:34:48 Request body: {"animeID":"2","status":"Смотрю"}
+2025/10/30 00:34:48 Сессия пользователя: session-1
+2025/10/30 00:34:48 Received anime_id: "2"
+2025/10/30 00:34:48 Parsed anime_id: 2
+2025/10/30 00:34:48 Успешно сохранено для userID=1, animeID=2, статус="Смотрю"
+2025/10/30 00:34:48 Попытка сохранить статус. userID=1, animeID=2, status="Смотрю"
+2025/10/30 00:34:48 userID из сессии: 1
+2025/10/30 00:34:48 UpdateAnimeStatus вызван с параметрами: userID=1, animeID=2, status="Смотрю"
+2025/10/30 00:34:48 Успешно сохранено для userID=1, animeID=2, статус="Смотрю"
+2025/10/30 00:34:48 Попытка сохранить статус. userID=1, animeID=2, status="Смотрю"
+2025/10/30 00:35:56 Запуск сервера
+2025/10/30 00:35:56 Подключение к базе данных установлено успешно
+2025/10/30 00:35:56 Сервер запущен на порту 8080
+2025/10/30 00:36:08 Anime ID: 1, Title: Наруто, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 2, Title: Ван Пис, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 3, Title: Моя геройская академия, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 4, Title: Волейбол, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 5, Title: Клинок рассекающий демонов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 6, Title: Туалетный мальчик Ханако-кун, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 7, Title: Великий из бродячих псов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 8, Title: Песнь ночных сов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 9, Title: Семья шпионов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 10, Title: Доктор Стоун, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 11, Title: Евангелион, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 12, Title: Обещанный Неверленд, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 13, Title: Синяя тюрьма, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 14, Title: Повар-боец Сома, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 15, Title: Киберпанк, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 16, Title: Рок - женская скромность, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 17, Title: Быть героем Икс, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 18, Title: Ветролом, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 19, Title: Форма голоса, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 20, Title: Моменты оваций, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 21, Title: Скейт бесконечность, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 22, Title: Агент времени, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 23, Title: Сладкий лимонад, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 24, Title: Объединяйтесь!, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 25, Title: Невменяемый детектив, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 26, Title: Башня Бога, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 27, Title: За гранью, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 28, Title: Класс убийц, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 29, Title: Данганронпа, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 30, Title: Хантер х Хантер, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 31, Title: Богатый детектив, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 32, Title: Токийский гуль, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 33, Title: Нет игры - нет жизни, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 34, Title: ТораДора, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 35, Title: Бездомный бог, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 36, Title: Очень приятно, Бог, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 37, Title: Ангельские ритмы, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 38, Title: Дневник будущего, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 39, Title: Парад смерти, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 40, Title: Фейри тейл, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 41, Title: Человек-бензопила, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 42, Title: Другая, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 43, Title: Хоримия, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 44, Title: Дюрара, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 45, Title: Последний Серафим, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 46, Title: Класс превосходства, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 47, Title: Токийские мстители, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 48, Title: Эхо террора, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 49, Title: Хост-клуб Оранской школы, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 50, Title: Звездное дитя, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 51, Title: Юри на льду, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 52, Title: Фронт кровавой блокады, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 53, Title: Сервамп, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 54, Title: Адский рай, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 55, Title: Дандадан, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 56, Title: Вольный стиль, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 57, Title: Приоритет чудо-яйца, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 58, Title: Проект кей, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 59, Title: Связанные, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 60, Title: Тайные желания отвергнутых, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 61, Title: Ангел кровопролития, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 62, Title: Кровавый парень, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 63, Title: Зом 100, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 64, Title: Мемуары Ванитаса, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 65, Title: Моя любовь к Ямаде 999 уровня, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 66, Title: Только ты любишь великого меня, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 67, Title: Я требую..., StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 68, Title: Акудама драйв, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:36:08 Anime ID: 69, Title: Детектив уже мертв, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:21 Запуск сервера
+2025/10/30 00:50:21 Подключение к базе данных установлено успешно
+2025/10/30 00:50:21 Сервер запущен на порту 8080
+2025/10/30 00:50:28 Anime ID: 1, Title: Наруто, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 2, Title: Ван Пис, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 3, Title: Моя геройская академия, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 4, Title: Волейбол, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 5, Title: Клинок рассекающий демонов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 6, Title: Туалетный мальчик Ханако-кун, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 7, Title: Великий из бродячих псов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 8, Title: Песнь ночных сов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 9, Title: Семья шпионов, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 10, Title: Доктор Стоун, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 11, Title: Евангелион, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 12, Title: Обещанный Неверленд, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 13, Title: Синяя тюрьма, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 14, Title: Повар-боец Сома, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 15, Title: Киберпанк, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 16, Title: Рок - женская скромность, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 17, Title: Быть героем Икс, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 18, Title: Ветролом, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 19, Title: Форма голоса, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 20, Title: Моменты оваций, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 21, Title: Скейт бесконечность, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 22, Title: Агент времени, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 23, Title: Сладкий лимонад, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 24, Title: Объединяйтесь!, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 25, Title: Невменяемый детектив, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 26, Title: Башня Бога, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 27, Title: За гранью, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 28, Title: Класс убийц, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 29, Title: Данганронпа, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 30, Title: Хантер х Хантер, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 31, Title: Богатый детектив, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 32, Title: Токийский гуль, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 33, Title: Нет игры - нет жизни, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 34, Title: ТораДора, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 35, Title: Бездомный бог, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 36, Title: Очень приятно, Бог, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 37, Title: Ангельские ритмы, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 38, Title: Дневник будущего, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 39, Title: Парад смерти, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 40, Title: Фейри тейл, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 41, Title: Человек-бензопила, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 42, Title: Другая, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 43, Title: Хоримия, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 44, Title: Дюрара, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 45, Title: Последний Серафим, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 46, Title: Класс превосходства, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 47, Title: Токийские мстители, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 48, Title: Эхо террора, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 49, Title: Хост-клуб Оранской школы, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 50, Title: Звездное дитя, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 51, Title: Юри на льду, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 52, Title: Фронт кровавой блокады, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 53, Title: Сервамп, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 54, Title: Адский рай, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 55, Title: Дандадан, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 56, Title: Вольный стиль, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 57, Title: Приоритет чудо-яйца, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 58, Title: Проект кей, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 59, Title: Связанные, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 60, Title: Тайные желания отвергнутых, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 61, Title: Ангел кровопролития, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 62, Title: Кровавый парень, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 63, Title: Зом 100, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 64, Title: Мемуары Ванитаса, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 65, Title: Моя любовь к Ямаде 999 уровня, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 66, Title: Только ты любишь великого меня, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 67, Title: Я требую..., StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 68, Title: Акудама драйв, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:28 Anime ID: 69, Title: Детектив уже мертв, StatusString: %!q(func() string=0x7ff727e97080)
+2025/10/30 00:50:33 Request body: {"animeID":"2","status":"Смотрю"}
+2025/10/30 00:50:33 Сессия пользователя: session-1
+2025/10/30 00:50:33 Received anime_id: "2"
+2025/10/30 00:50:33 Parsed anime_id: 2
+2025/10/30 00:50:33 Успешно сохранено для userID=1, animeID=2, статус="Смотрю"
+2025/10/30 00:50:33 Попытка сохранить статус. userID=1, animeID=2, status="Смотрю"
+2025/10/30 00:50:33 userID из сессии: 1
+2025/10/30 00:50:33 UpdateAnimeStatus вызван с параметрами: userID=1, animeID=2, status="Смотрю"
+2025/10/30 00:50:33 Успешно сохранено для userID=1, animeID=2, статус="Смотрю"
+2025/10/30 00:50:33 Попытка сохранить статус. userID=1, animeID=2, status="Смотрю"
