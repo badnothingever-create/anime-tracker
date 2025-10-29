@@ -269,13 +269,6 @@ function filterAnime() {
   });
 }
 
-function updateStatusInput(animeID, status) {
-    const input = document.getElementById("status-input-" + animeID);
-    if (input) {
-        input.value = status;
-    }
-}
-
 function updateStatus(animeID, newStatus) {
   console.log('Отправляемые данные:', { anime_id: animeID, status: newStatus });
   fetch('/anime/status', {
@@ -553,7 +546,7 @@ function updateStatus(animeID, newStatus) {
     {{range .Animes}}
     <div class="anime-item {{.StatusString | statusClass}}" id="anime-{{.ID}}" data-status="{{.StatusString}}">
       <div class="anime-title">{{.Title}}</div>
-      <input type="text" id="status-input-{{.ID}}" value="{{.StatusString}}">
+      <input type="text" id="status-input-{{.ID}}" value="{{.StatusString}}" onchange="updateStatus('{{.ID}}', this.value)">
       <div class="anime-status-select">
         <select onchange="updateStatus('{{.ID}}', this.value)">
           <option value="Пусто" {{if eq .StatusString "-"}}selected{{end}}>-</option>
