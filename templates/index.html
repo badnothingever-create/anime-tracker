@@ -270,38 +270,17 @@ function filterAnime() {
 }
 
 function updateStatus(animeID, newStatus) {
-  console.log('Отправляемые данные:', { anime_id: animeID, status: newStatus });
-  fetch('/anime/status', {
+    console.log("Отправка статуса", animeID, newStatus);  fetch('/anime/status', {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json'
-    },
-    body: JSON.stringify({ animeID: animeID, status: newStatus })
+    headers: {'Content-Type': 'application/json'},
+    body: JSON.stringify({animeID: animeID, status: newStatus})
   })
-    .then(response => {
-      if (!response.ok) {
-        return response.text().then(text => {
-          throw new Error('Ошибка при обновлении статуса: ' + text);
-        });
-      }
-      return response;
-    })
-    .then(() => {
-      return fetch('/anime');
-    })
-    .then(resp => resp.text())
-    .then(html => {
-      const parser = new DOMParser();
-      const doc = parser.parseFromString(html, 'text/html');
-      const animeItem = doc.getElementById('anime-' + animeID);
-      if (animeItem) {
-        document.getElementById('anime-' + animeID).innerHTML = animeItem.innerHTML;
-      }
-    })
-    .catch(error => {
-      console.error(error.message);
-      alert(error.message);
-    });
+.then(response => {
+    console.log('Ответ сервера:', response.status);
+    if (!response.ok) throw new Error('Ошибка обновления');
+    document.getElementById('status-input-' + animeID).value = newStatus;
+  })
+  .catch(error => alert(error.message));
 }
 </script>
 </head>

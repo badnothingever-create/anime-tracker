@@ -18,6 +18,7 @@ func InitRoutes(mux *http.ServeMux) {
 	mux.HandleFunc("/anime", func(w http.ResponseWriter, r *http.Request) {
 		switch r.Method {
 		case http.MethodGet:
+
 			animes, err := services.ListAnimes()
 			if err != nil {
 				http.Error(w, `{"error":"`+err.Error()+`"}`, http.StatusInternalServerError)
