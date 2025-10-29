@@ -5,9 +5,9 @@ import (
 )
 
 type AnimeWithStatus struct {
-	ID     int
-	Title  string
-	Status string
+	ID           int
+	Title        string
+	StatusString string
 }
 
 func GetAnimesForUser(userID int) ([]AnimeWithStatus, error) {
@@ -24,7 +24,7 @@ func GetAnimesForUser(userID int) ([]AnimeWithStatus, error) {
 	var animes []AnimeWithStatus
 	for rows.Next() {
 		var anime AnimeWithStatus
-		if err := rows.Scan(&anime.ID, &anime.Title, &anime.Status); err != nil {
+		if err := rows.Scan(&anime.ID, &anime.Title, &anime.StatusString); err != nil {
 			return nil, err
 		}
 		animes = append(animes, anime)

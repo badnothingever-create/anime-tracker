@@ -269,6 +269,13 @@ function filterAnime() {
   });
 }
 
+function updateStatusInput(animeID, status) {
+    const input = document.getElementById("status-input-" + animeID);
+    if (input) {
+        input.value = status;
+    }
+}
+
 function updateStatus(animeID, newStatus) {
   console.log('Отправляемые данные:', { anime_id: animeID, status: newStatus });
   fetch('/anime/status', {
