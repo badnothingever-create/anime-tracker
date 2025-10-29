@@ -282,6 +282,18 @@ function updateStatus(animeID, newStatus) {
   })
   .catch(error => alert(error.message));
 }
+document.querySelectorAll('input[type="text"]').forEach(input => {
+  input.addEventListener('input', () => {
+    localStorage.setItem(input.id, input.value);
+  });
+});
+document.querySelectorAll('input[type="text"]').forEach(input => {
+  const saved = localStorage.getItem(input.id);
+  if (saved !== null) {
+    input.value = saved;
+  }
+});
+
 </script>
 </head>
 <body>

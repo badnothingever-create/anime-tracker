@@ -27,7 +27,7 @@ func InitRoutes(mux *http.ServeMux) {
 			}
 
 			for _, anime := range animes {
-				log.Printf("Anime ID: %d, Title: %s, StatusString: %q", anime.ID, anime.Title, anime.StatusString)
+				log.Printf("Anime ID: %d, Title: %s, StatusString: %q", anime.ID, anime.Title, anime.StatusString())
 			}
 
 			err = templates.ExecuteTemplate(w, "index.html", map[string]any{

@@ -83,9 +83,9 @@ func AnimeListHandler(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, "Ошибка GetAnimesForUser:", http.StatusInternalServerError)
 		return
 	}
-	log.Printf("Получено аниме: %d", len(animes))
-	log.Printf("Возвращаемые данные: %v", animes)
-
+	for _, a := range animes {
+		log.Printf("Anime ID: %d, Status: %q", a.ID, a.StatusString)
+	}
 	err = templates.ExecuteTemplate(w, "index.html", map[string]interface{}{
 		"Animes": animes,
 	})
