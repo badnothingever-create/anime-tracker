@@ -2016,3 +2016,1456 @@
 2025/10/30 15:09:57 Запуск сервера
 2025/10/30 15:09:57 Подключение к базе данных установлено успешно
 2025/10/30 15:09:57 Сервер запущен на порту 8080
+2025/10/30 21:29:27 Запуск сервера
+2025/10/30 21:29:27 Подключение к базе данных установлено успешно
+2025/10/30 21:29:27 Сервер запущен на порту 8080
+2025/10/30 21:32:24 Request body: {"animeID":"6","status":"Никогда не посмотрю"}
+2025/10/30 21:32:24 Сессия пользователя: session-2
+2025/10/30 21:32:24 Received anime_id: "6"
+2025/10/30 21:32:24 Parsed anime_id: 6
+2025/10/30 21:32:25 Успешно сохранено для userID=2, animeID=6, статус="Никогда не посмотрю"
+2025/10/30 21:32:25 Попытка сохранить статус. userID=2, animeID=6, status="Никогда не посмотрю"
+2025/10/30 21:32:25 userID из сессии: 2
+2025/10/30 21:32:25 Успешно сохранено для userID=2, animeID=6, статус="Никогда не посмотрю"
+2025/10/30 21:32:25 Попытка сохранить статус. userID=2, animeID=6, status="Никогда не посмотрю"
+2025/10/30 21:32:41 Request body: {"animeID":"7","status":"Смотрю"}
+2025/10/30 21:32:41 Сессия пользователя: session-1
+2025/10/30 21:32:41 Received anime_id: "7"
+2025/10/30 21:32:41 Parsed anime_id: 7
+2025/10/30 21:32:41 Успешно сохранено для userID=1, animeID=7, статус="Смотрю"
+2025/10/30 21:32:41 Попытка сохранить статус. userID=1, animeID=7, status="Смотрю"
+2025/10/30 21:32:41 userID из сессии: 1
+2025/10/30 21:32:41 Успешно сохранено для userID=1, animeID=7, статус="Смотрю"
+2025/10/30 21:32:41 Попытка сохранить статус. userID=1, animeID=7, status="Смотрю"
+2025/10/30 21:42:38 Запуск сервера
+2025/10/30 21:42:38 Подключение к базе данных установлено успешно
+2025/10/30 21:42:38 Сервер запущен на порту 8080
+2025/10/30 21:42:46 Начинаем загрузку аниме из базы
+2025/10/30 21:42:46 DB row: Anime ID=1, Title=Наруто, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=2, Title=Ван Пис, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=3, Title=Моя геройская академия, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=4, Title=Волейбол, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 21:42:46 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 21:42:46 DB row: Anime ID=7, Title=Великий из бродячих псов, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 21:42:46 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 21:42:46 Количество аниме после выборки: 69
+2025/10/30 21:49:16 Начинаем загрузку аниме из базы
+2025/10/30 21:49:16 DB row: Anime ID=1, Title=Наруто, Status=Смотрю (Valid=true)
+2025/10/30 21:49:16 Anime ID 1: статус = Смотрю
+2025/10/30 21:49:16 DB row: Anime ID=2, Title=Ван Пис, Status=Смотрю (Valid=true)
+2025/10/30 21:49:16 Anime ID 2: статус = Смотрю
+2025/10/30 21:49:16 DB row: Anime ID=3, Title=Моя геройская академия, Status=Просмотрено (Valid=true)
+2025/10/30 21:49:16 Anime ID 3: статус = Просмотрено
+2025/10/30 21:49:16 DB row: Anime ID=4, Title=Волейбол, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 21:49:16 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 21:49:16 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status=Смотрю (Valid=true)
+2025/10/30 21:49:16 Anime ID 5: статус = Смотрю
+2025/10/30 21:49:16 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=7, Title=Великий из бродячих псов, Status=Смотрю (Valid=true)
+2025/10/30 21:49:16 Anime ID 7: статус = Смотрю
+2025/10/30 21:49:16 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 21:49:16 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 21:49:16 Количество аниме после выборки: 69
+2025/10/30 21:57:11 Запуск сервера
+2025/10/30 21:57:11 Подключение к базе данных установлено успешно
+2025/10/30 21:57:11 Сервер запущен на порту 8080
+2025/10/30 21:58:28 Запуск сервера
+2025/10/30 21:58:28 Подключение к базе данных установлено успешно
+2025/10/30 21:58:28 Сервер запущен на порту 8080
+2025/10/30 21:58:34 DEBUG: userID из сессии: 1, для запроса /anime
+2025/10/30 21:58:34 GetAnimesForUser вызывается с userID=1
+2025/10/30 21:58:34 Начинаем загрузку аниме из базы
+2025/10/30 21:58:34 DB row: Anime ID=1, Title=Наруто, Status=Смотрю (Valid=true)
+2025/10/30 21:58:34 Anime ID 1: статус = Смотрю
+2025/10/30 21:58:34 DB row: Anime ID=2, Title=Ван Пис, Status=Смотрю (Valid=true)
+2025/10/30 21:58:34 Anime ID 2: статус = Смотрю
+2025/10/30 21:58:34 DB row: Anime ID=3, Title=Моя геройская академия, Status=Просмотрено (Valid=true)
+2025/10/30 21:58:34 Anime ID 3: статус = Просмотрено
+2025/10/30 21:58:34 DB row: Anime ID=4, Title=Волейбол, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 21:58:34 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 21:58:34 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status=Смотрю (Valid=true)
+2025/10/30 21:58:34 Anime ID 5: статус = Смотрю
+2025/10/30 21:58:34 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=7, Title=Великий из бродячих псов, Status=Смотрю (Valid=true)
+2025/10/30 21:58:34 Anime ID 7: статус = Смотрю
+2025/10/30 21:58:34 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 21:58:34 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 21:58:34 Количество аниме после выборки: 69
+2025/10/30 21:58:34 DEBUG: получено 69 аниме для userID 1
+2025/10/30 21:59:52 DEBUG: userID из сессии: 2, для запроса /anime
+2025/10/30 21:59:52 GetAnimesForUser вызывается с userID=2
+2025/10/30 21:59:52 Начинаем загрузку аниме из базы
+2025/10/30 21:59:52 DB row: Anime ID=1, Title=Наруто, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=2, Title=Ван Пис, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=3, Title=Моя геройская академия, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=4, Title=Волейбол, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 21:59:52 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 21:59:52 DB row: Anime ID=7, Title=Великий из бродячих псов, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 21:59:52 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 21:59:52 Количество аниме после выборки: 69
+2025/10/30 21:59:52 DEBUG: получено 69 аниме для userID 2
+2025/10/30 22:05:39 DEBUG: userID из сессии: 1, для запроса /anime
+2025/10/30 22:05:39 GetAnimesForUser вызывается с userID=1
+2025/10/30 22:05:39 Начинаем загрузку аниме из базы
+2025/10/30 22:05:39 DB row: Anime ID=1, Title=Наруто, Status=Смотрю (Valid=true)
+2025/10/30 22:05:39 Anime ID 1: статус = Смотрю
+2025/10/30 22:05:39 DB row: Anime ID=2, Title=Ван Пис, Status=Смотрю (Valid=true)
+2025/10/30 22:05:39 Anime ID 2: статус = Смотрю
+2025/10/30 22:05:39 DB row: Anime ID=3, Title=Моя геройская академия, Status=Просмотрено (Valid=true)
+2025/10/30 22:05:39 Anime ID 3: статус = Просмотрено
+2025/10/30 22:05:39 DB row: Anime ID=4, Title=Волейбол, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:05:39 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 22:05:39 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status=Смотрю (Valid=true)
+2025/10/30 22:05:39 Anime ID 5: статус = Смотрю
+2025/10/30 22:05:39 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=7, Title=Великий из бродячих псов, Status=Смотрю (Valid=true)
+2025/10/30 22:05:39 Anime ID 7: статус = Смотрю
+2025/10/30 22:05:39 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:05:39 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:05:39 Количество аниме после выборки: 69
+2025/10/30 22:05:39 DEBUG: получено 69 аниме для userID 1
+2025/10/30 22:05:51 DEBUG: userID из сессии: 2, для запроса /anime
+2025/10/30 22:05:51 GetAnimesForUser вызывается с userID=2
+2025/10/30 22:05:51 Начинаем загрузку аниме из базы
+2025/10/30 22:05:51 DB row: Anime ID=1, Title=Наруто, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=2, Title=Ван Пис, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=3, Title=Моя геройская академия, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=4, Title=Волейбол, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:05:51 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 22:05:51 DB row: Anime ID=7, Title=Великий из бродячих псов, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:05:51 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:05:51 Количество аниме после выборки: 69
+2025/10/30 22:05:51 DEBUG: получено 69 аниме для userID 2
+2025/10/30 22:11:17 Запуск сервера
+2025/10/30 22:11:18 Подключение к базе данных установлено успешно
+2025/10/30 22:11:18 Сервер запущен на порту 8080
+2025/10/30 22:11:21 DEBUG: userID из сессии: 1, для запроса /anime
+2025/10/30 22:11:21 GetAnimesForUser вызывается с userID=1
+2025/10/30 22:11:21 Начинаем загрузку аниме из базы
+2025/10/30 22:11:21 DB row: Anime ID=1, Title=Наруто, Status=Смотрю (Valid=true)
+2025/10/30 22:11:21 Anime ID 1: статус = Смотрю
+2025/10/30 22:11:21 DB row: Anime ID=2, Title=Ван Пис, Status=Смотрю (Valid=true)
+2025/10/30 22:11:21 Anime ID 2: статус = Смотрю
+2025/10/30 22:11:21 DB row: Anime ID=3, Title=Моя геройская академия, Status=Просмотрено (Valid=true)
+2025/10/30 22:11:21 Anime ID 3: статус = Просмотрено
+2025/10/30 22:11:21 DB row: Anime ID=4, Title=Волейбол, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:11:21 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 22:11:21 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status=Смотрю (Valid=true)
+2025/10/30 22:11:21 Anime ID 5: статус = Смотрю
+2025/10/30 22:11:21 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=7, Title=Великий из бродячих псов, Status=Смотрю (Valid=true)
+2025/10/30 22:11:21 Anime ID 7: статус = Смотрю
+2025/10/30 22:11:21 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:11:21 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:11:21 Количество аниме после выборки: 69
+2025/10/30 22:11:21 DEBUG: получено 69 аниме для userID 1
+2025/10/30 22:11:27 DEBUG: cookie session_token: session-1
+2025/10/30 22:11:27 Request body: {"animeID":"6","status":"Планирую"}
+2025/10/30 22:11:27 Сессия пользователя: session-1
+2025/10/30 22:11:27 Received anime_id: "6"
+2025/10/30 22:11:27 Parsed anime_id: 6
+2025/10/30 22:11:27 Успешно сохранено для userID=1, animeID=6, статус="Планирую"
+2025/10/30 22:11:27 Попытка сохранить статус. userID=1, animeID=6, status="Планирую"
+2025/10/30 22:11:27 userID из сессии: 1
+2025/10/30 22:11:27 Успешно сохранено для userID=1, animeID=6, статус="Планирую"
+2025/10/30 22:11:27 Попытка сохранить статус. userID=1, animeID=6, status="Планирую"
+2025/10/30 22:11:31 DEBUG: cookie session_token: session-1
+2025/10/30 22:11:31 Request body: {"animeID":"8","status":"Просмотрено"}
+2025/10/30 22:11:31 Сессия пользователя: session-1
+2025/10/30 22:11:31 Received anime_id: "8"
+2025/10/30 22:11:31 Parsed anime_id: 8
+2025/10/30 22:11:31 Успешно сохранено для userID=1, animeID=8, статус="Просмотрено"
+2025/10/30 22:11:31 Попытка сохранить статус. userID=1, animeID=8, status="Просмотрено"
+2025/10/30 22:11:31 userID из сессии: 1
+2025/10/30 22:11:31 Успешно сохранено для userID=1, animeID=8, статус="Просмотрено"
+2025/10/30 22:11:31 Попытка сохранить статус. userID=1, animeID=8, status="Просмотрено"
+2025/10/30 22:11:33 DEBUG: cookie session_token: session-1
+2025/10/30 22:11:33 Request body: {"animeID":"9","status":"Никогда не посмотрю"}
+2025/10/30 22:11:33 Сессия пользователя: session-1
+2025/10/30 22:11:33 Received anime_id: "9"
+2025/10/30 22:11:33 Parsed anime_id: 9
+2025/10/30 22:11:33 Успешно сохранено для userID=1, animeID=9, статус="Никогда не посмотрю"
+2025/10/30 22:11:33 Попытка сохранить статус. userID=1, animeID=9, status="Никогда не посмотрю"
+2025/10/30 22:11:33 userID из сессии: 1
+2025/10/30 22:11:33 Успешно сохранено для userID=1, animeID=9, статус="Никогда не посмотрю"
+2025/10/30 22:11:33 Попытка сохранить статус. userID=1, animeID=9, status="Никогда не посмотрю"
+2025/10/30 22:11:36 DEBUG: cookie session_token: session-1
+2025/10/30 22:11:36 Request body: {"animeID":"10","status":"Планирую"}
+2025/10/30 22:11:36 Сессия пользователя: session-1
+2025/10/30 22:11:36 Received anime_id: "10"
+2025/10/30 22:11:36 Parsed anime_id: 10
+2025/10/30 22:11:36 Успешно сохранено для userID=1, animeID=10, статус="Планирую"
+2025/10/30 22:11:36 Попытка сохранить статус. userID=1, animeID=10, status="Планирую"
+2025/10/30 22:11:36 userID из сессии: 1
+2025/10/30 22:11:36 Успешно сохранено для userID=1, animeID=10, статус="Планирую"
+2025/10/30 22:11:36 Попытка сохранить статус. userID=1, animeID=10, status="Планирую"
+2025/10/30 22:11:45 DEBUG: userID из сессии: 2, для запроса /anime
+2025/10/30 22:11:45 GetAnimesForUser вызывается с userID=2
+2025/10/30 22:11:45 Начинаем загрузку аниме из базы
+2025/10/30 22:11:45 DB row: Anime ID=1, Title=Наруто, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=2, Title=Ван Пис, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=3, Title=Моя геройская академия, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=4, Title=Волейбол, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:11:45 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 22:11:45 DB row: Anime ID=7, Title=Великий из бродячих псов, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:11:45 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:11:45 Количество аниме после выборки: 69
+2025/10/30 22:11:45 DEBUG: получено 69 аниме для userID 2
+2025/10/30 22:12:44 Запуск сервера
+2025/10/30 22:12:44 Подключение к базе данных установлено успешно
+2025/10/30 22:12:44 Сервер запущен на порту 8080
+2025/10/30 22:14:34 Запуск сервера
+2025/10/30 22:14:34 Подключение к базе данных установлено успешно
+2025/10/30 22:14:34 Сервер запущен на порту 8080
+2025/10/30 22:14:45 Запуск сервера
+2025/10/30 22:14:45 Подключение к базе данных установлено успешно
+2025/10/30 22:14:45 Сервер запущен на порту 8080
+2025/10/30 22:16:58 Запуск сервера
+2025/10/30 22:16:59 Подключение к базе данных установлено успешно
+2025/10/30 22:16:59 Сервер запущен на порту 8080
+2025/10/30 22:17:22 Запуск сервера
+2025/10/30 22:17:22 Подключение к базе данных установлено успешно
+2025/10/30 22:17:22 Сервер запущен на порту 8080
+2025/10/30 22:17:44 DEBUG: userID из сессии: 2, для запроса /anime
+2025/10/30 22:17:44 GetAnimesForUser вызывается с userID=2
+2025/10/30 22:17:44 Начинаем загрузку аниме из базы
+2025/10/30 22:17:44 DB row: Anime ID=1, Title=Наруто, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=2, Title=Ван Пис, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=3, Title=Моя геройская академия, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=4, Title=Волейбол, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:17:44 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 22:17:44 DB row: Anime ID=7, Title=Великий из бродячих псов, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:17:44 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:17:44 Количество аниме после выборки: 69
+2025/10/30 22:17:44 DEBUG: получено 69 аниме для userID 2
+2025/10/30 22:17:49 DEBUG: cookie session_token: session-2
+2025/10/30 22:17:49 Request body: {"animeID":"24","status":"Просмотрено"}
+2025/10/30 22:17:49 Сессия пользователя: session-2
+2025/10/30 22:17:49 Received anime_id: "24"
+2025/10/30 22:17:49 Parsed anime_id: 24
+2025/10/30 22:17:50 Успешно сохранено для userID=2, animeID=24, статус="Просмотрено"
+2025/10/30 22:17:50 Попытка сохранить статус. userID=2, animeID=24, status="Просмотрено"
+2025/10/30 22:17:50 userID из сессии: 2
+2025/10/30 22:17:50 Успешно сохранено для userID=2, animeID=24, статус="Просмотрено"
+2025/10/30 22:17:50 Попытка сохранить статус. userID=2, animeID=24, status="Просмотрено"
+2025/10/30 22:17:51 DEBUG: cookie session_token: session-2
+2025/10/30 22:17:51 Request body: {"animeID":"23","status":"Просмотрено"}
+2025/10/30 22:17:51 Сессия пользователя: session-2
+2025/10/30 22:17:51 Received anime_id: "23"
+2025/10/30 22:17:51 Parsed anime_id: 23
+2025/10/30 22:17:51 Успешно сохранено для userID=2, animeID=23, статус="Просмотрено"
+2025/10/30 22:17:51 Попытка сохранить статус. userID=2, animeID=23, status="Просмотрено"
+2025/10/30 22:17:51 userID из сессии: 2
+2025/10/30 22:17:51 Успешно сохранено для userID=2, animeID=23, статус="Просмотрено"
+2025/10/30 22:17:51 Попытка сохранить статус. userID=2, animeID=23, status="Просмотрено"
+2025/10/30 22:17:53 DEBUG: cookie session_token: session-2
+2025/10/30 22:17:53 Request body: {"animeID":"22","status":"Просмотрено"}
+2025/10/30 22:17:53 Сессия пользователя: session-2
+2025/10/30 22:17:53 Received anime_id: "22"
+2025/10/30 22:17:53 Parsed anime_id: 22
+2025/10/30 22:17:53 Успешно сохранено для userID=2, animeID=22, статус="Просмотрено"
+2025/10/30 22:17:53 Попытка сохранить статус. userID=2, animeID=22, status="Просмотрено"
+2025/10/30 22:17:53 userID из сессии: 2
+2025/10/30 22:17:53 Успешно сохранено для userID=2, animeID=22, статус="Просмотрено"
+2025/10/30 22:17:53 Попытка сохранить статус. userID=2, animeID=22, status="Просмотрено"
+2025/10/30 22:17:58 DEBUG: userID из сессии: 1, для запроса /anime
+2025/10/30 22:17:58 GetAnimesForUser вызывается с userID=1
+2025/10/30 22:17:58 Начинаем загрузку аниме из базы
+2025/10/30 22:17:58 DB row: Anime ID=1, Title=Наруто, Status=Смотрю (Valid=true)
+2025/10/30 22:17:58 Anime ID 1: статус = Смотрю
+2025/10/30 22:17:58 DB row: Anime ID=2, Title=Ван Пис, Status=Смотрю (Valid=true)
+2025/10/30 22:17:58 Anime ID 2: статус = Смотрю
+2025/10/30 22:17:58 DB row: Anime ID=3, Title=Моя геройская академия, Status=Просмотрено (Valid=true)
+2025/10/30 22:17:58 Anime ID 3: статус = Просмотрено
+2025/10/30 22:17:58 DB row: Anime ID=4, Title=Волейбол, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:17:58 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 22:17:58 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status=Смотрю (Valid=true)
+2025/10/30 22:17:58 Anime ID 5: статус = Смотрю
+2025/10/30 22:17:58 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Планирую (Valid=true)
+2025/10/30 22:17:58 Anime ID 6: статус = Планирую
+2025/10/30 22:17:58 DB row: Anime ID=7, Title=Великий из бродячих псов, Status=Смотрю (Valid=true)
+2025/10/30 22:17:58 Anime ID 7: статус = Смотрю
+2025/10/30 22:17:58 DB row: Anime ID=8, Title=Песнь ночных сов, Status=Просмотрено (Valid=true)
+2025/10/30 22:17:58 Anime ID 8: статус = Просмотрено
+2025/10/30 22:17:58 DB row: Anime ID=9, Title=Семья шпионов, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:17:58 Anime ID 9: статус = Никогда не посмотрю
+2025/10/30 22:17:58 DB row: Anime ID=10, Title=Доктор Стоун, Status=Планирую (Valid=true)
+2025/10/30 22:17:58 Anime ID 10: статус = Планирую
+2025/10/30 22:17:58 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:17:58 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:17:58 Количество аниме после выборки: 69
+2025/10/30 22:17:58 DEBUG: получено 69 аниме для userID 1
+2025/10/30 22:22:03 Запуск сервера
+2025/10/30 22:22:03 Подключение к базе данных установлено успешно
+2025/10/30 22:22:03 Сервер запущен на порту 8080
+2025/10/30 22:22:30 Запуск сервера
+2025/10/30 22:22:30 Подключение к базе данных установлено успешно
+2025/10/30 22:22:30 Сервер запущен на порту 8080
+2025/10/30 22:22:40 DEBUG: userID из сессии: 2, для запроса /anime
+2025/10/30 22:22:40 GetAnimesForUser вызывается с userID=2
+2025/10/30 22:22:40 Начинаем загрузку аниме из базы
+2025/10/30 22:22:40 DB row: Anime ID=1, Title=Наруто, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=2, Title=Ван Пис, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=3, Title=Моя геройская академия, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=4, Title=Волейбол, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:22:40 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 22:22:40 DB row: Anime ID=7, Title=Великий из бродячих псов, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=22, Title=Агент времени, Status=Просмотрено (Valid=true)
+2025/10/30 22:22:40 Anime ID 22: статус = Просмотрено
+2025/10/30 22:22:40 DB row: Anime ID=23, Title=Сладкий лимонад, Status=Просмотрено (Valid=true)
+2025/10/30 22:22:40 Anime ID 23: статус = Просмотрено
+2025/10/30 22:22:40 DB row: Anime ID=24, Title=Объединяйтесь!, Status=Просмотрено (Valid=true)
+2025/10/30 22:22:40 Anime ID 24: статус = Просмотрено
+2025/10/30 22:22:40 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:22:40 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:22:40 Количество аниме после выборки: 69
+2025/10/30 22:22:40 DEBUG: получено 69 аниме для userID 2
+2025/10/30 22:22:48 DEBUG: cookie session_token: session-2
+2025/10/30 22:22:48 Request body: {"animeID":"25","status":"Смотрю"}
+2025/10/30 22:22:48 Сессия пользователя: session-2
+2025/10/30 22:22:48 Received anime_id: "25"
+2025/10/30 22:22:48 Parsed anime_id: 25
+2025/10/30 22:22:48 Успешно сохранено для userID=2, animeID=25, статус="Смотрю"
+2025/10/30 22:22:48 Попытка сохранить статус. userID=2, animeID=25, status="Смотрю"
+2025/10/30 22:22:48 userID из сессии: 2
+2025/10/30 22:22:48 Успешно сохранено для userID=2, animeID=25, статус="Смотрю"
+2025/10/30 22:22:48 Попытка сохранить статус. userID=2, animeID=25, status="Смотрю"
+2025/10/30 22:22:50 DEBUG: cookie session_token: session-2
+2025/10/30 22:22:50 Request body: {"animeID":"26","status":"Смотрю"}
+2025/10/30 22:22:50 Сессия пользователя: session-2
+2025/10/30 22:22:50 Received anime_id: "26"
+2025/10/30 22:22:50 Parsed anime_id: 26
+2025/10/30 22:22:50 Успешно сохранено для userID=2, animeID=26, статус="Смотрю"
+2025/10/30 22:22:50 Попытка сохранить статус. userID=2, animeID=26, status="Смотрю"
+2025/10/30 22:22:50 userID из сессии: 2
+2025/10/30 22:22:50 Успешно сохранено для userID=2, animeID=26, статус="Смотрю"
+2025/10/30 22:22:50 Попытка сохранить статус. userID=2, animeID=26, status="Смотрю"
+2025/10/30 22:22:51 DEBUG: cookie session_token: session-2
+2025/10/30 22:22:51 Request body: {"animeID":"27","status":"Смотрю"}
+2025/10/30 22:22:51 Сессия пользователя: session-2
+2025/10/30 22:22:51 Received anime_id: "27"
+2025/10/30 22:22:51 Parsed anime_id: 27
+2025/10/30 22:22:51 Успешно сохранено для userID=2, animeID=27, статус="Смотрю"
+2025/10/30 22:22:51 Попытка сохранить статус. userID=2, animeID=27, status="Смотрю"
+2025/10/30 22:22:51 userID из сессии: 2
+2025/10/30 22:22:51 Успешно сохранено для userID=2, animeID=27, статус="Смотрю"
+2025/10/30 22:22:51 Попытка сохранить статус. userID=2, animeID=27, status="Смотрю"
+2025/10/30 22:22:57 DEBUG: userID из сессии: 1, для запроса /anime
+2025/10/30 22:22:57 GetAnimesForUser вызывается с userID=1
+2025/10/30 22:22:57 Начинаем загрузку аниме из базы
+2025/10/30 22:22:57 DB row: Anime ID=1, Title=Наруто, Status=Смотрю (Valid=true)
+2025/10/30 22:22:57 Anime ID 1: статус = Смотрю
+2025/10/30 22:22:57 DB row: Anime ID=2, Title=Ван Пис, Status=Смотрю (Valid=true)
+2025/10/30 22:22:57 Anime ID 2: статус = Смотрю
+2025/10/30 22:22:57 DB row: Anime ID=3, Title=Моя геройская академия, Status=Просмотрено (Valid=true)
+2025/10/30 22:22:57 Anime ID 3: статус = Просмотрено
+2025/10/30 22:22:57 DB row: Anime ID=4, Title=Волейбол, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:22:57 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 22:22:57 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status=Смотрю (Valid=true)
+2025/10/30 22:22:57 Anime ID 5: статус = Смотрю
+2025/10/30 22:22:57 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Планирую (Valid=true)
+2025/10/30 22:22:57 Anime ID 6: статус = Планирую
+2025/10/30 22:22:57 DB row: Anime ID=7, Title=Великий из бродячих псов, Status=Смотрю (Valid=true)
+2025/10/30 22:22:57 Anime ID 7: статус = Смотрю
+2025/10/30 22:22:57 DB row: Anime ID=8, Title=Песнь ночных сов, Status=Просмотрено (Valid=true)
+2025/10/30 22:22:57 Anime ID 8: статус = Просмотрено
+2025/10/30 22:22:57 DB row: Anime ID=9, Title=Семья шпионов, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:22:57 Anime ID 9: статус = Никогда не посмотрю
+2025/10/30 22:22:57 DB row: Anime ID=10, Title=Доктор Стоун, Status=Планирую (Valid=true)
+2025/10/30 22:22:57 Anime ID 10: статус = Планирую
+2025/10/30 22:22:57 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:22:57 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:22:57 Количество аниме после выборки: 69
+2025/10/30 22:22:57 DEBUG: получено 69 аниме для userID 1
+2025/10/30 22:31:05 Запуск сервера
+2025/10/30 22:31:05 Подключение к базе данных установлено успешно
+2025/10/30 22:31:05 Сервер запущен на порту 8080
+2025/10/30 22:31:06 NoCacheMiddleware activated for GET /logout
+2025/10/30 22:31:06 NoCacheMiddleware activated for GET /
+2025/10/30 22:31:06 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:31:07 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:31:13 NoCacheMiddleware activated for POST /
+2025/10/30 22:31:14 NoCacheMiddleware activated for GET /anime
+2025/10/30 22:31:14 DEBUG: userID из сессии: 2, для запроса /anime
+2025/10/30 22:31:14 GetAnimesForUser вызывается с userID=2
+2025/10/30 22:31:14 Начинаем загрузку аниме из базы
+2025/10/30 22:31:14 DB row: Anime ID=1, Title=Наруто, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=2, Title=Ван Пис, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=3, Title=Моя геройская академия, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=4, Title=Волейбол, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:31:14 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 22:31:14 DB row: Anime ID=7, Title=Великий из бродячих псов, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=8, Title=Песнь ночных сов, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=9, Title=Семья шпионов, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=10, Title=Доктор Стоун, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=22, Title=Агент времени, Status=Просмотрено (Valid=true)
+2025/10/30 22:31:14 Anime ID 22: статус = Просмотрено
+2025/10/30 22:31:14 DB row: Anime ID=23, Title=Сладкий лимонад, Status=Просмотрено (Valid=true)
+2025/10/30 22:31:14 Anime ID 23: статус = Просмотрено
+2025/10/30 22:31:14 DB row: Anime ID=24, Title=Объединяйтесь!, Status=Просмотрено (Valid=true)
+2025/10/30 22:31:14 Anime ID 24: статус = Просмотрено
+2025/10/30 22:31:14 DB row: Anime ID=25, Title=Невменяемый детектив, Status=Смотрю (Valid=true)
+2025/10/30 22:31:14 Anime ID 25: статус = Смотрю
+2025/10/30 22:31:14 DB row: Anime ID=26, Title=Башня Бога, Status=Смотрю (Valid=true)
+2025/10/30 22:31:14 Anime ID 26: статус = Смотрю
+2025/10/30 22:31:14 DB row: Anime ID=27, Title=За гранью, Status=Смотрю (Valid=true)
+2025/10/30 22:31:14 Anime ID 27: статус = Смотрю
+2025/10/30 22:31:14 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:31:14 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:31:14 Количество аниме после выборки: 69
+2025/10/30 22:31:14 DEBUG: получено 69 аниме для userID 2
+2025/10/30 22:31:14 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:31:14 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:31:19 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:31:19 DEBUG: cookie session_token: session-2
+2025/10/30 22:31:19 Request body: {"animeID":"28","status":"Планирую"}
+2025/10/30 22:31:19 Сессия пользователя: session-2
+2025/10/30 22:31:19 Received anime_id: "28"
+2025/10/30 22:31:19 Parsed anime_id: 28
+2025/10/30 22:31:19 Успешно сохранено для userID=2, animeID=28, статус="Планирую"
+2025/10/30 22:31:19 Попытка сохранить статус. userID=2, animeID=28, status="Планирую"
+2025/10/30 22:31:19 userID из сессии: 2
+2025/10/30 22:31:19 Успешно сохранено для userID=2, animeID=28, статус="Планирую"
+2025/10/30 22:31:19 Попытка сохранить статус. userID=2, animeID=28, status="Планирую"
+2025/10/30 22:31:20 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:31:20 DEBUG: cookie session_token: session-2
+2025/10/30 22:31:20 Request body: {"animeID":"29","status":"Планирую"}
+2025/10/30 22:31:20 Сессия пользователя: session-2
+2025/10/30 22:31:20 Received anime_id: "29"
+2025/10/30 22:31:20 Parsed anime_id: 29
+2025/10/30 22:31:20 Успешно сохранено для userID=2, animeID=29, статус="Планирую"
+2025/10/30 22:31:20 Попытка сохранить статус. userID=2, animeID=29, status="Планирую"
+2025/10/30 22:31:20 userID из сессии: 2
+2025/10/30 22:31:20 Успешно сохранено для userID=2, animeID=29, статус="Планирую"
+2025/10/30 22:31:20 Попытка сохранить статус. userID=2, animeID=29, status="Планирую"
+2025/10/30 22:31:22 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:31:22 DEBUG: cookie session_token: session-2
+2025/10/30 22:31:22 Request body: {"animeID":"30","status":"Планирую"}
+2025/10/30 22:31:22 Сессия пользователя: session-2
+2025/10/30 22:31:22 Received anime_id: "30"
+2025/10/30 22:31:22 Parsed anime_id: 30
+2025/10/30 22:31:22 Успешно сохранено для userID=2, animeID=30, статус="Планирую"
+2025/10/30 22:31:22 Попытка сохранить статус. userID=2, animeID=30, status="Планирую"
+2025/10/30 22:31:22 userID из сессии: 2
+2025/10/30 22:31:22 Успешно сохранено для userID=2, animeID=30, статус="Планирую"
+2025/10/30 22:31:22 Попытка сохранить статус. userID=2, animeID=30, status="Планирую"
+2025/10/30 22:31:24 NoCacheMiddleware activated for GET /logout
+2025/10/30 22:31:24 NoCacheMiddleware activated for GET /
+2025/10/30 22:31:24 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:31:25 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:31:32 NoCacheMiddleware activated for POST /
+2025/10/30 22:31:32 NoCacheMiddleware activated for GET /anime
+2025/10/30 22:31:32 DEBUG: userID из сессии: 1, для запроса /anime
+2025/10/30 22:31:32 GetAnimesForUser вызывается с userID=1
+2025/10/30 22:31:32 Начинаем загрузку аниме из базы
+2025/10/30 22:31:32 DB row: Anime ID=1, Title=Наруто, Status=Смотрю (Valid=true)
+2025/10/30 22:31:32 Anime ID 1: статус = Смотрю
+2025/10/30 22:31:32 DB row: Anime ID=2, Title=Ван Пис, Status=Смотрю (Valid=true)
+2025/10/30 22:31:32 Anime ID 2: статус = Смотрю
+2025/10/30 22:31:32 DB row: Anime ID=3, Title=Моя геройская академия, Status=Просмотрено (Valid=true)
+2025/10/30 22:31:32 Anime ID 3: статус = Просмотрено
+2025/10/30 22:31:32 DB row: Anime ID=4, Title=Волейбол, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:31:32 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 22:31:32 DB row: Anime ID=5, Title=Клинок рассекающий демонов, Status=Смотрю (Valid=true)
+2025/10/30 22:31:32 Anime ID 5: статус = Смотрю
+2025/10/30 22:31:32 DB row: Anime ID=6, Title=Туалетный мальчик Ханако-кун, Status=Планирую (Valid=true)
+2025/10/30 22:31:32 Anime ID 6: статус = Планирую
+2025/10/30 22:31:32 DB row: Anime ID=7, Title=Великий из бродячих псов, Status=Смотрю (Valid=true)
+2025/10/30 22:31:32 Anime ID 7: статус = Смотрю
+2025/10/30 22:31:32 DB row: Anime ID=8, Title=Песнь ночных сов, Status=Просмотрено (Valid=true)
+2025/10/30 22:31:32 Anime ID 8: статус = Просмотрено
+2025/10/30 22:31:32 DB row: Anime ID=9, Title=Семья шпионов, Status=Никогда не посмотрю (Valid=true)
+2025/10/30 22:31:32 Anime ID 9: статус = Никогда не посмотрю
+2025/10/30 22:31:32 DB row: Anime ID=10, Title=Доктор Стоун, Status=Планирую (Valid=true)
+2025/10/30 22:31:32 Anime ID 10: статус = Планирую
+2025/10/30 22:31:32 DB row: Anime ID=11, Title=Евангелион, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=12, Title=Обещанный Неверленд, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=13, Title=Синяя тюрьма, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=14, Title=Повар-боец Сома, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=15, Title=Киберпанк, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=16, Title=Рок - женская скромность, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=17, Title=Быть героем Икс, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=18, Title=Ветролом, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=19, Title=Форма голоса, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=20, Title=Моменты оваций, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=21, Title=Скейт бесконечность, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=22, Title=Агент времени, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=23, Title=Сладкий лимонад, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=24, Title=Объединяйтесь!, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=25, Title=Невменяемый детектив, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=26, Title=Башня Бога, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=27, Title=За гранью, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=28, Title=Класс убийц, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=29, Title=Данганронпа, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=30, Title=Хантер х Хантер, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=31, Title=Богатый детектив, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=32, Title=Токийский гуль, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=33, Title=Нет игры - нет жизни, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=34, Title=ТораДора, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=35, Title=Бездомный бог, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=36, Title=Очень приятно, Бог, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=37, Title=Ангельские ритмы, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=38, Title=Дневник будущего, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=39, Title=Парад смерти, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=40, Title=Фейри тейл, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=41, Title=Человек-бензопила, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=42, Title=Другая, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=43, Title=Хоримия, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=44, Title=Дюрара, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=45, Title=Последний Серафим, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=46, Title=Класс превосходства, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=47, Title=Токийские мстители, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=48, Title=Эхо террора, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=49, Title=Хост-клуб Оранской школы, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=50, Title=Звездное дитя, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=51, Title=Юри на льду, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=52, Title=Фронт кровавой блокады, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=53, Title=Сервамп, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=54, Title=Адский рай, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=55, Title=Дандадан, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=56, Title=Вольный стиль, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=57, Title=Приоритет чудо-яйца, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=58, Title=Проект кей, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=59, Title=Связанные, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=60, Title=Тайные желания отвергнутых, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=61, Title=Ангел кровопролития, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=62, Title=Кровавый парень, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=63, Title=Зом 100, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=64, Title=Мемуары Ванитаса, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=65, Title=Моя любовь к Ямаде 999 уровня, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=66, Title=Только ты любишь великого меня, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=67, Title=Я требую..., Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=68, Title=Акудама драйв, Status= (Valid=false)
+2025/10/30 22:31:32 DB row: Anime ID=69, Title=Детектив уже мертв, Status= (Valid=false)
+2025/10/30 22:31:32 Количество аниме после выборки: 69
+2025/10/30 22:31:32 DEBUG: получено 69 аниме для userID 1
+2025/10/30 22:31:32 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:31:33 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:33:03 Запуск сервера
+2025/10/30 22:33:03 Подключение к базе данных установлено успешно
+2025/10/30 22:33:03 Сервер запущен на порту 8080
+2025/10/30 22:33:53 Запуск сервера
+2025/10/30 22:33:54 Подключение к базе данных установлено успешно
+2025/10/30 22:33:54 Сервер запущен на порту 8080
+2025/10/30 22:34:05 Запуск сервера
+2025/10/30 22:34:05 Подключение к базе данных установлено успешно
+2025/10/30 22:34:05 Сервер запущен на порту 8080
+2025/10/30 22:34:44 Запуск сервера
+2025/10/30 22:34:44 Подключение к базе данных установлено успешно
+2025/10/30 22:34:44 Сервер запущен на порту 8080
+2025/10/30 22:34:44 NoCacheMiddleware activated for GET /logout
+2025/10/30 22:34:44 NoCacheMiddleware activated for GET /
+2025/10/30 22:34:44 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:34:46 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:34:53 NoCacheMiddleware activated for POST /
+2025/10/30 22:34:53 NoCacheMiddleware activated for GET /anime
+2025/10/30 22:34:53 Anime ID 6: статус = Никогда не посмотрю
+2025/10/30 22:34:53 Anime ID 22: статус = Просмотрено
+2025/10/30 22:34:53 Anime ID 23: статус = Просмотрено
+2025/10/30 22:34:53 Anime ID 24: статус = Просмотрено
+2025/10/30 22:34:53 Anime ID 25: статус = Смотрю
+2025/10/30 22:34:53 Anime ID 26: статус = Смотрю
+2025/10/30 22:34:53 Anime ID 27: статус = Смотрю
+2025/10/30 22:34:53 Anime ID 28: статус = Планирую
+2025/10/30 22:34:53 Anime ID 29: статус = Планирую
+2025/10/30 22:34:53 Anime ID 30: статус = Планирую
+2025/10/30 22:34:53 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:34:54 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:35:03 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:35:03 Успешно сохранено для userID=2, animeID=31, статус="Никогда не посмотрю"
+2025/10/30 22:35:03 Попытка сохранить статус. userID=2, animeID=31, status="Никогда не посмотрю"
+2025/10/30 22:35:03 Успешно сохранено для userID=2, animeID=31, статус="Никогда не посмотрю"
+2025/10/30 22:35:03 Попытка сохранить статус. userID=2, animeID=31, status="Никогда не посмотрю"
+2025/10/30 22:35:04 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:35:04 Успешно сохранено для userID=2, animeID=32, статус="Никогда не посмотрю"
+2025/10/30 22:35:04 Попытка сохранить статус. userID=2, animeID=32, status="Никогда не посмотрю"
+2025/10/30 22:35:04 Успешно сохранено для userID=2, animeID=32, статус="Никогда не посмотрю"
+2025/10/30 22:35:04 Попытка сохранить статус. userID=2, animeID=32, status="Никогда не посмотрю"
+2025/10/30 22:35:06 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:35:06 Успешно сохранено для userID=2, animeID=33, статус="Никогда не посмотрю"
+2025/10/30 22:35:06 Попытка сохранить статус. userID=2, animeID=33, status="Никогда не посмотрю"
+2025/10/30 22:35:06 Успешно сохранено для userID=2, animeID=33, статус="Никогда не посмотрю"
+2025/10/30 22:35:06 Попытка сохранить статус. userID=2, animeID=33, status="Никогда не посмотрю"
+2025/10/30 22:35:08 NoCacheMiddleware activated for GET /logout
+2025/10/30 22:35:08 NoCacheMiddleware activated for GET /
+2025/10/30 22:35:08 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:35:08 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:35:12 NoCacheMiddleware activated for POST /
+2025/10/30 22:35:12 NoCacheMiddleware activated for GET /anime
+2025/10/30 22:35:12 Anime ID 1: статус = Смотрю
+2025/10/30 22:35:12 Anime ID 2: статус = Смотрю
+2025/10/30 22:35:12 Anime ID 3: статус = Просмотрено
+2025/10/30 22:35:12 Anime ID 4: статус = Никогда не посмотрю
+2025/10/30 22:35:12 Anime ID 5: статус = Смотрю
+2025/10/30 22:35:12 Anime ID 6: статус = Планирую
+2025/10/30 22:35:12 Anime ID 7: статус = Смотрю
+2025/10/30 22:35:12 Anime ID 8: статус = Просмотрено
+2025/10/30 22:35:12 Anime ID 9: статус = Никогда не посмотрю
+2025/10/30 22:35:12 Anime ID 10: статус = Планирую
+2025/10/30 22:35:12 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:35:13 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:36:51 Запуск сервера
+2025/10/30 22:36:51 Подключение к базе данных установлено успешно
+2025/10/30 22:36:51 Сервер запущен на порту 8080
+2025/10/30 22:37:02 NoCacheMiddleware activated for GET /logout
+2025/10/30 22:37:02 NoCacheMiddleware activated for GET /
+2025/10/30 22:37:02 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:37:03 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:37:28 NoCacheMiddleware activated for POST /
+2025/10/30 22:37:29 NoCacheMiddleware activated for GET /anime
+2025/10/30 22:37:29 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:37:30 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:37:32 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:37:34 NoCacheMiddleware activated for POST /anime/status
+2025/10/30 22:37:36 NoCacheMiddleware activated for GET /logout
+2025/10/30 22:37:36 NoCacheMiddleware activated for GET /
+2025/10/30 22:37:36 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:37:36 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:37:39 NoCacheMiddleware activated for POST /
+2025/10/30 22:37:39 NoCacheMiddleware activated for GET /anime
+2025/10/30 22:37:39 NoCacheMiddleware activated for GET /.well-known/appspecific/com.chrome.devtools.json
+2025/10/30 22:37:40 NoCacheMiddleware activated for GET /favicon.ico
+2025/10/30 22:39:57 Запуск сервера
+2025/10/30 22:39:57 Подключение к базе данных установлено успешно
+2025/10/30 22:39:57 Сервер запущен на порту 8080
+2025/10/30 22:40:10 Запуск сервера
+2025/10/30 22:40:11 Подключение к базе данных установлено успешно
+2025/10/30 22:40:11 Сервер запущен на порту 8080
+2025/10/30 22:40:11 [NoCacheMiddleware] GET /logout [::1]:49392 303 0s
+2025/10/30 22:40:11 [NoCacheMiddleware] GET / [::1]:49392 200 3.5934ms
+2025/10/30 22:40:12 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49392 200 0s
+2025/10/30 22:40:12 [NoCacheMiddleware] GET /favicon.ico [::1]:49392 200 0s
+2025/10/30 22:40:18 [NoCacheMiddleware] POST / [::1]:49392 303 130.1906ms
+2025/10/30 22:40:18 [NoCacheMiddleware] GET /anime [::1]:49392 200 23.0264ms
+2025/10/30 22:40:18 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49392 200 597.3µs
+2025/10/30 22:40:19 [NoCacheMiddleware] GET /favicon.ico [::1]:49392 200 4.9117ms
+2025/10/30 22:40:21 [NoCacheMiddleware] POST /anime/status [::1]:49392 200 10.779ms
+2025/10/30 22:40:23 [NoCacheMiddleware] POST /anime/status [::1]:49392 200 8.7793ms
+2025/10/30 22:40:24 [NoCacheMiddleware] GET /logout [::1]:49392 303 0s
+2025/10/30 22:40:24 [NoCacheMiddleware] GET / [::1]:49392 200 0s
+2025/10/30 22:40:24 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49392 200 386.3µs
+2025/10/30 22:40:25 [NoCacheMiddleware] GET /favicon.ico [::1]:49392 200 2.1535ms
+2025/10/30 22:40:28 [NoCacheMiddleware] POST / [::1]:49392 303 152.7064ms
+2025/10/30 22:40:28 [NoCacheMiddleware] GET /anime [::1]:49392 200 18.3495ms
+2025/10/30 22:40:28 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49392 200 326.8µs
+2025/10/30 22:40:29 [NoCacheMiddleware] GET /favicon.ico [::1]:49392 200 1.8312ms
+2025/10/30 22:44:08 Запуск сервера
+2025/10/30 22:44:08 Подключение к базе данных установлено успешно
+2025/10/30 22:44:14 Запуск сервера
+2025/10/30 22:44:14 Подключение к базе данных установлено успешно
+2025/10/30 22:44:14 Сервер запущен на порту 8080
+2025/10/30 22:50:34 [NoCacheMiddleware] GET /anime [::1]:49936 303 532.7µs
+2025/10/30 22:50:34 [NoCacheMiddleware] GET /login [::1]:49936 200 1.3687ms
+2025/10/30 22:50:34 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49936 200 0s
+2025/10/30 22:50:34 [NoCacheMiddleware] GET /favicon.ico [::1]:49936 200 0s
+2025/10/30 22:50:37 Запуск сервера
+2025/10/30 22:50:37 Подключение к базе данных установлено успешно
+2025/10/30 22:50:37 Сервер запущен на порту 8080
+2025/10/30 22:50:54 [NoCacheMiddleware] POST / [::1]:49976 303 123.6143ms
+2025/10/30 22:50:54 [NoCacheMiddleware] GET /anime [::1]:49976 200 125.5623ms
+2025/10/30 22:50:54 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49976 200 896.4µs
+2025/10/30 22:50:55 [NoCacheMiddleware] GET /favicon.ico [::1]:49976 200 1.0527ms
+2025/10/30 22:50:59 [NoCacheMiddleware] POST /anime/status [::1]:49976 200 14.0803ms
+2025/10/30 22:51:01 [NoCacheMiddleware] POST /anime/status [::1]:49976 200 5.2274ms
+2025/10/30 22:51:02 [NoCacheMiddleware] GET /logout [::1]:49976 303 0s
+2025/10/30 22:51:03 [NoCacheMiddleware] GET / [::1]:49976 200 0s
+2025/10/30 22:51:03 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49976 200 1.9744ms
+2025/10/30 22:51:03 [NoCacheMiddleware] GET /favicon.ico [::1]:49976 200 998µs
+2025/10/30 22:51:06 [NoCacheMiddleware] POST / [::1]:49976 303 135.2747ms
+2025/10/30 22:51:06 [NoCacheMiddleware] GET /anime [::1]:49976 200 13.5105ms
+2025/10/30 22:51:06 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49976 200 996.7µs
+2025/10/30 22:51:06 [NoCacheMiddleware] GET /favicon.ico [::1]:49976 200 2.0195ms
+2025/10/30 22:51:15 [NoCacheMiddleware] POST /anime/status [::1]:49976 200 338.4772ms
+2025/10/30 22:51:17 [NoCacheMiddleware] POST /anime/status [::1]:49976 200 8.5408ms
+2025/10/30 22:51:18 [NoCacheMiddleware] GET /logout [::1]:49976 303 0s
+2025/10/30 22:51:18 [NoCacheMiddleware] GET / [::1]:49976 200 997.7µs
+2025/10/30 22:51:19 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49976 200 870.8µs
+2025/10/30 22:51:19 [NoCacheMiddleware] GET /favicon.ico [::1]:49976 200 4.2433ms
+2025/10/30 22:51:26 [NoCacheMiddleware] POST / [::1]:49976 303 146.7716ms
+2025/10/30 22:51:26 [NoCacheMiddleware] GET /anime [::1]:49976 200 13.1704ms
+2025/10/30 22:51:26 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49976 200 997.6µs
+2025/10/30 22:51:27 [NoCacheMiddleware] GET /favicon.ico [::1]:49976 200 1.3919ms
+2025/10/30 22:52:19 [NoCacheMiddleware] GET /anime [::1]:49976 200 28.8806ms
+2025/10/30 22:52:19 [NoCacheMiddleware] GET /.well-known/appspecific/com.chrome.devtools.json [::1]:49976 200 0s
+2025/10/30 22:52:20 [NoCacheMiddleware] GET /favicon.ico [::1]:49976 200 757µs

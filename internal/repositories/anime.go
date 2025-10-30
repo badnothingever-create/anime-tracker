@@ -3,7 +3,7 @@ package repositories
 import (
 	"anime-tracker/internal/database"
 	"anime-tracker/internal/models"
-	"log"
+	//"log"
 )
 
 type AnimeWithStatus struct {
@@ -13,6 +13,7 @@ type AnimeWithStatus struct {
 }
 
 func GetAnimesForUser(userID int) ([]AnimeWithStatus, error) {
+	//log.Printf("GetAnimesForUser вызывается с userID=%d", userID)
 	rows, err := database.DB.Query(`
         SELECT a.id, a.title, uas.status
         FROM animes a
@@ -23,15 +24,15 @@ func GetAnimesForUser(userID int) ([]AnimeWithStatus, error) {
 		return nil, err
 	}
 	defer rows.Close()
-	log.Println("Начинаем загрузку аниме из базы")
+	//log.Println("Начинаем загрузку аниме из базы")
 	var animes []AnimeWithStatus
 	for rows.Next() {
 		var a models.Anime
 		if err := rows.Scan(&a.ID, &a.Title, &a.Status); err != nil {
-			log.Printf("Ошибка сканирования строки: %v", err)
+			//log.Printf("Ошибка сканирования строки: %v", err)
 			return nil, err
 		}
-		log.Printf("DB row: Anime ID=%d, Title=%s, Status=%v (Valid=%v)", a.ID, a.Title, a.Status.String, a.Status.Valid)
+		//log.Printf("DB row: Anime ID=%d, Title=%s, Status=%v (Valid=%v)", a.ID, a.Title, a.Status.String, a.Status.Valid)
 		animeWithStatus := AnimeWithStatus{
 			ID:           a.ID,
 			Title:        a.Title,
@@ -39,11 +40,11 @@ func GetAnimesForUser(userID int) ([]AnimeWithStatus, error) {
 		}
 		animes = append(animes, animeWithStatus)
 		if err := rows.Err(); err != nil {
-			log.Printf("Ошибка после итерации по rows: %v", err)
+			//log.Printf("Ошибка после итерации по rows: %v", err)
 			return nil, err
 		}
 	}
-	log.Printf("Количество аниме после выборки: %d", len(animes))
+	//log.Printf("Количество аниме после выборки: %d", len(animes))
 	return animes, nil
 }
 

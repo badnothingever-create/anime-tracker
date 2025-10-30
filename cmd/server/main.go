@@ -33,5 +33,5 @@ func main() {
 	handlers.InitRoutes(mux)
 
 	log.Printf("Сервер запущен на порту %s\n", port)
-	log.Fatal(http.ListenAndServe(":"+port, mux))
+	log.Fatal(http.ListenAndServe(":"+port, handlers.NoCacheLoggingMiddleware(mux)))
 }

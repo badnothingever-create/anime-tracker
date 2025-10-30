@@ -269,17 +269,51 @@ function filterAnime() {
   });
 }
 
+// Очищает сохранённые статусы аниме из localStorage
+function clearAnimeStatusCache() {
+  for (let i = localStorage.length - 1; i >= 0; i--) {
+    let key = localStorage.key(i);
+    if (key.startsWith('animeStatus-')) {
+      localStorage.removeItem(key);
+    }
+  }
+}
+
+// Вызовите эту функцию при logout, например:
+function onLogout() {
+  clearAnimeStatusCache();
+  location.href = '/logout'; // или как у вас происходит выход
+}
+
+// Можно также очистить статусы при загрузке страницы,
+// если считаете, что пользователь сменился
+document.addEventListener('DOMContentLoaded', () => {
+  clearAnimeStatusCache();
+
+  // Остальной код инициализации
+  document.querySelectorAll('[id^="status-span-"]').forEach(span => {
+    const animeID = span.id.replace('status-span-', '');
+    const savedStatus = localStorage.getItem('animeStatus-' + animeID);
+    if (savedStatus) {
+      span.textContent = savedStatus;
+      const select = document.querySelector(`#anime-${animeID} select`);
+      if (select) {
+        select.value = savedStatus;
+      }
+    }
+  });
+});
+
+// Модификация updateStatus для добавления cache-busting
 function updateStatus(animeID, newStatus) {
-  // сохраняем текущий статус в localStorage или sessionStorage
   localStorage.setItem('animeStatus-' + animeID, newStatus);
-  console.log("Отправка статуса", animeID, newStatus);
-  fetch('/anime/status', {
+
+  fetch('/anime/status?ts=' + Date.now(), {  // добавлен ts параметр
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ animeID: animeID, status: newStatus })
   })
   .then(response => {
-    console.log('Ответ сервера: ', response.status);
     if (!response.ok) throw new Error('Ошибка обновления');
     return response.json();
   })
@@ -291,22 +325,15 @@ function updateStatus(animeID, newStatus) {
   })
   .catch(error => alert(error.message));
 }
-document.addEventListener('DOMContentLoaded', () => {
-  // получаем все элементы с ID вида 'status-span-...'
-  document.querySelectorAll('[id^="status-span-"]').forEach(span => {
-    const animeID = span.id.replace('status-span-', '');
-    const savedStatus = localStorage.getItem('animeStatus-' + animeID);
-    if (savedStatus) {
-      span.textContent = savedStatus;
-      
-      // при этом также нужно обновить выпадающий список, чтобы он показывал выбранный статус
-      const select = document.querySelector(`#anime-${animeID} select`);
-      if (select) {
-        select.value = savedStatus;
-      }
+function clearAnimeStatusCache() {
+  // Перебираем все ключи localStorage и удаляем, если они начинаются с 'animeStatus-'
+  for (let i = localStorage.length - 1; i >= 0; i--) {
+    let key = localStorage.key(i);
+    if (key.startsWith('animeStatus-')) {
+      localStorage.removeItem(key);
     }
-  });
-});
+  }
+}
 
 </script>
 </head>

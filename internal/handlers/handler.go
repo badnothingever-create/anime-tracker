@@ -2,6 +2,7 @@ package handlers
 
 import (
 	"encoding/json"
+	//"log"
 	"net/http"
 
 	"anime-tracker/internal/models"
@@ -11,11 +12,10 @@ import (
 
 // InitRoutes регистрирует роуты на переданном mux (явная маршрутизация)
 func InitRoutes(mux *http.ServeMux) {
-	mux.HandleFunc("/", LoginHandler)                         // Страница входа
-	mux.HandleFunc("/register", RegisterHandler)              // Страница регистрации
-	mux.HandleFunc("/logout", LogoutHandler)                  // Выход
-	mux.HandleFunc("/anime/status", UpdateAnimeStatusHandler) // Обновление статуса
-	//mux.HandleFunc("/anime", AnimeListHandler)                // Страница с аниме
+	mux.HandleFunc("/", LoginHandler)            // Страница входа
+	mux.HandleFunc("/register", RegisterHandler) // Страница регистрации
+	mux.HandleFunc("/logout", LogoutHandler)     // Выход
+	mux.HandleFunc("/anime/status", UpdateAnimeStatusHandler)
 	mux.HandleFunc("/anime", func(w http.ResponseWriter, r *http.Request) {
 		userID, err := services.GetUserIDFromSession(r)
 		if err != nil {
@@ -23,18 +23,16 @@ func InitRoutes(mux *http.ServeMux) {
 			http.Redirect(w, r, "/login", http.StatusSeeOther)
 			return
 		}
+		//log.Printf("DEBUG: userID из сессии: %d, для запроса %s", userID, r.URL.Path)
 		switch r.Method {
 		case http.MethodGet:
 
-			animes, err := services.ListAnimes()
+			animes, err := services.GetAnimesForUser(userID)
 			if err != nil {
 				http.Error(w, `{"error":"`+err.Error()+`"}`, http.StatusInternalServerError)
 				return
 			}
-
-			//for _, anime := range animes {
-			//	log.Printf("Anime ID: %d, Title: %s, StatusString: %q", anime.ID, anime.Title, anime.StatusString())
-			//}
+			//log.Printf("DEBUG: получено %d аниме для userID %d", len(animes), userID)
 			username, err := repositories.GetUsernameByUserID(userID)
 			err = templates.ExecuteTemplate(w, "index.html", map[string]interface{}{
 				"Animes":   animes,

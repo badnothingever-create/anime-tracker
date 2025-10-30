@@ -2,7 +2,7 @@ package models
 
 import (
 	"database/sql"
-	"log"
+	//"log"
 )
 
 type User struct {
@@ -19,7 +19,7 @@ type Anime struct {
 // Метод возвращает строку статуса или пустую строку, если статус null
 func (a Anime) StatusString() string {
 	if a.Status.Valid {
-		log.Printf("Anime ID %d: статус = %s", a.ID, a.Status.String)
+		//log.Printf("Anime ID %d: статус = %s", a.ID, a.Status.String)
 		return a.Status.String
 	}
 	return ""
