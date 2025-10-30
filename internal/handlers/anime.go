@@ -1,6 +1,7 @@
 package handlers
 
 import (
+	//"anime-tracker/internal/repositories"
 	"anime-tracker/internal/services"
 	"bytes"
 	"encoding/json"
@@ -58,15 +59,16 @@ func UpdateAnimeStatusHandler(w http.ResponseWriter, r *http.Request) {
 	}
 	log.Printf("userID из сессии: %d", userID)
 
-	log.Printf("UpdateAnimeStatus вызван с параметрами: userID=%d, animeID=%s, status=%q", userID, req.AnimeID, req.Status)
+	//log.Printf("UpdateAnimeStatus вызван с параметрами: userID=%d, animeID=%s, status=%q", userID, req.AnimeID, req.Status)
 
 	err = services.UpdateAnimeStatus(userID, animeID, req.Status)
 	if err != nil {
 		http.Error(w, err.Error(), http.StatusBadRequest)
 		return
 	}
-
+	w.Header().Set("Content-Type", "application/json")
 	w.WriteHeader(http.StatusOK)
+	json.NewEncoder(w).Encode(map[string]string{"status": req.Status})
 }
 
 func AnimeListHandler(w http.ResponseWriter, r *http.Request) {
@@ -77,18 +79,25 @@ func AnimeListHandler(w http.ResponseWriter, r *http.Request) {
 	}
 
 	log.Printf("Получен userID: %d", userID)
-	log.Println("AnimeListHandler: вызов services.GetAnimesForUser")
 	animes, err := services.GetAnimesForUser(userID)
 	if err != nil {
 		http.Error(w, "Ошибка GetAnimesForUser:", http.StatusInternalServerError)
 		return
 	}
-	for _, a := range animes {
-		log.Printf("Anime ID: %d, Status: %q", a.ID, a.StatusString)
-	}
+	//for _, a := range animes {
+	//	log.Printf("Anime ID: %d, Status: %q", a.ID, a.StatusString)
+	//}
+
+	//username, err := repositories.GetUsernameByUserID(userID)
+	//if err != nil {
+	//	username = "Гость"
+	//}
 	err = templates.ExecuteTemplate(w, "index.html", map[string]interface{}{
 		"Animes": animes,
+		//	"Username": username,
 	})
+	//log.Println("Username:", username)
+
 	if err != nil {
 		log.Printf("Ошибка рендера шаблона: %v", err)
 		http.Error(w, "Ошибка отображения", http.StatusInternalServerError)

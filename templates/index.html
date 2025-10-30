@@ -270,28 +270,42 @@ function filterAnime() {
 }
 
 function updateStatus(animeID, newStatus) {
-    console.log("Отправка статуса", animeID, newStatus);  fetch('/anime/status', {
+  // сохраняем текущий статус в localStorage или sessionStorage
+  localStorage.setItem('animeStatus-' + animeID, newStatus);
+  console.log("Отправка статуса", animeID, newStatus);
+  fetch('/anime/status', {
     method: 'POST',
-    headers: {'Content-Type': 'application/json'},
-    body: JSON.stringify({animeID: animeID, status: newStatus})
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ animeID: animeID, status: newStatus })
   })
-.then(response => {
-    console.log('Ответ сервера:', response.status);
+  .then(response => {
+    console.log('Ответ сервера: ', response.status);
     if (!response.ok) throw new Error('Ошибка обновления');
-    document.getElementById('status-input-' + animeID).value = newStatus;
+    return response.json();
+  })
+  .then(data => {
+    const statusSpan = document.getElementById(`status-span-${animeID}`);
+    if (statusSpan) {
+      statusSpan.textContent = data.status || newStatus;
+    }
   })
   .catch(error => alert(error.message));
 }
-document.querySelectorAll('input[type="text"]').forEach(input => {
-  input.addEventListener('input', () => {
-    localStorage.setItem(input.id, input.value);
+document.addEventListener('DOMContentLoaded', () => {
+  // получаем все элементы с ID вида 'status-span-...'
+  document.querySelectorAll('[id^="status-span-"]').forEach(span => {
+    const animeID = span.id.replace('status-span-', '');
+    const savedStatus = localStorage.getItem('animeStatus-' + animeID);
+    if (savedStatus) {
+      span.textContent = savedStatus;
+      
+      // при этом также нужно обновить выпадающий список, чтобы он показывал выбранный статус
+      const select = document.querySelector(`#anime-${animeID} select`);
+      if (select) {
+        select.value = savedStatus;
+      }
+    }
   });
-});
-document.querySelectorAll('input[type="text"]').forEach(input => {
-  const saved = localStorage.getItem(input.id);
-  if (saved !== null) {
-    input.value = saved;
-  }
 });
 
 </script>
@@ -524,8 +538,11 @@ document.querySelectorAll('input[type="text"]').forEach(input => {
   ><span>ホ</span>
 </div>
 
-    <div class="fixed-logout-btn">
-  <button onclick="location.href='/logout'">Выйти</button>
+  <div class="fixed-logout-btn">
+    <button onclick="location.href='/logout'">Выйти</button>
+    <div class="user-login">
+    Вошёл через аккаунт: {{.Username}}
+    </div>
   </div>
 <div class="container">
   <h1>Мои аниме</h1>
@@ -537,7 +554,7 @@ document.querySelectorAll('input[type="text"]').forEach(input => {
     {{range .Animes}}
     <div class="anime-item {{.StatusString | statusClass}}" id="anime-{{.ID}}" data-status="{{.StatusString}}">
       <div class="anime-title">{{.Title}}</div>
-      <input type="text" id="status-input-{{.ID}}" value="{{.StatusString}}" onchange="updateStatus('{{.ID}}', this.value)">
+      <span id="status-span-{{.ID}}">{{.StatusString}}</span>
       <div class="anime-status-select">
         <select onchange="updateStatus('{{.ID}}', this.value)">
           <option value="Пусто" {{if eq .StatusString "-"}}selected{{end}}>-</option>

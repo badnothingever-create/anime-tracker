@@ -28,3 +28,12 @@ func AddAnime(a models.Anime) error {
 	_, err := database.DB.Exec("INSERT INTO animes (title, status) VALUES ($1, $2)", a.Title, a.Status)
 	return err
 }
+
+func GetUsernameByUserID(userID int) (string, error) {
+	var username string
+	err := database.DB.QueryRow("SELECT username FROM users WHERE id=$1", userID).Scan(&username)
+	if err != nil {
+		return "", err
+	}
+	return username, nil
+}
